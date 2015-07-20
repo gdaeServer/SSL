@@ -1,0 +1,40 @@
+<% if not @result.nil? and not @result.empty? %> 
+    <h3 style="display: inline-block;">Is this the article you wanted?</h3>
+    <div class="btn-group" role="group" style="margin-bottom: 10px">
+        <button type="button" class="btn" id="btn-no">Next</button>
+    </div>
+    <ul id="results">
+    <% @result.each do |r| %>
+        <% r["id"] =  if r["isbn"].nil? then r["id"] else r["isbn"] end %>
+        <li style="list-style-type: none">
+            <%= form_tag(doc_create_path(new_doc_contents: r)) do %>
+                <%= submit_tag("Correct", class: 'btn btn-primary') %>
+            <% end %>
+            <%= render partial: '/doc/doc', locals: { doc: r } %>
+            <a class="btn btn-primary" href=<%= raw_path(id: r["id"]) %>>View Raw JSON</a>
+        </li>
+    <% end %>
+
+    <script>
+        var $listItems = $('#results > li');
+
+        // hide all the list items and show the first one
+        $($listItems).hide().eq(0).show();
+
+        $('#btn-no')
+            .click(function() {
+                var currentItem = $($listItems) 
+                                        .filter(':visible')
+                                        .hide()
+                                        .next();
+                currentItem.show();
+                if ($($listItems).filter(':visible').length == 0) {
+                    $('p').replaceWith("<p>No results found.</p>");
+                    $('button').remove();
+                }
+        });
+    </script>
+<% else %>
+    <p>No results found.</p>
+<% end %>
+
