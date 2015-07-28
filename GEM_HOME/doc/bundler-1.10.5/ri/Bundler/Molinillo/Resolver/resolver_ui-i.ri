@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"resolver_ui:EFI"-Bundler::Molinillo::Resolver#resolver_ui;FI"R;F:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"D@return [UI] the UI module used to communicate back to the user:encoding"IBM437o:RDoc::Markup::Verbatim;	[I""during the resolution process;F:
+@file0FI";lib/bundler/vendor/molinillo/lib/molinillo/resolver.rb;@

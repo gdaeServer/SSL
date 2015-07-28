@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"vertices:EFI"1Bundler::Molinillo::DependencyGraph#vertices;FI"R;F:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"M@return [{String => Vertex}] the vertices of the dependency graph, keyed:encoding"IBM437o:RDoc::Markup::Verbatim;	[I"by {Vertex#name};F:
+@file0FI"Clib/bundler/vendor/molinillo/lib/molinillo/dependency_graph.rb;@

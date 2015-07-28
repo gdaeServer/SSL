@@ -1,0 +1,22 @@
+Started GET "/ssl_site/" for 10.246.130.31 at 2015-07-21 10:31:41 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (15.6ms)
+Completed 200 OK in 62ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+Started GET "/ssl_site/doc" for 10.246.130.31 at 2015-07-21 10:31:43 -0400
+Processing by DocController#index as HTML
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (15.6ms)
+  Rendered doc/index.html.erb within layouts/application (62.4ms)
+  Rendered layouts/_ssl_nav.html.erb (15.6ms)
+Completed 200 OK in 437ms (Views: 78.0ms | ActiveRecord: 0.0ms)
+[tid-7949640] end of file reached (EOFError)
+	C:/Zoo/Workers/ruby/lib/worker.rb:26:in `readpartial'
+	C:/Zoo/Workers/ruby/lib/worker.rb:26:in `process'
+	C:/Zoo/Workers/ruby/lib/worker.rb:20:in `block in run'
+	C:/Zoo/Workers/ruby/lib/worker.rb:20:in `loop'
+	C:/Zoo/Workers/ruby/lib/worker.rb:20:in `run'
+	C:/Zoo/Workers/ruby/zoorack.rb:30:in `<module:Zack>'
+	C:/Zoo/Workers/ruby/zoorack.rb:12:in `<main>'

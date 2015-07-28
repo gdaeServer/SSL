@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"conflicts:EFI"2Bundler::Molinillo::VersionConflict#conflicts;FI"R;F:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"I@return [{String => Resolution::Conflict}] the conflicts that caused:encoding"IBM437o:RDoc::Markup::Verbatim;	[I"resolution to fail;F:
+@file0FI"9lib/bundler/vendor/molinillo/lib/molinillo/errors.rb;@

@@ -1,0 +1,96 @@
+Started GET "/ssl_site/" for 10.246.130.31 at 2015-07-20 13:14:55 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (15.6ms)
+Completed 200 OK in 47ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+Started GET "/ssl_site/doc" for 10.246.130.31 at 2015-07-20 13:15:05 -0400
+Processing by DocController#index as HTML
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (15.6ms)
+  Rendered doc/index.html.erb within layouts/application (62.4ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 406ms (Views: 62.4ms | ActiveRecord: 0.0ms)
+Started GET "/ssl_site/" for 10.246.130.31 at 2015-07-20 13:15:09 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl_site/users/sign_in" for 10.246.130.31 at 2015-07-20 13:15:33 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (109.2ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 218ms (Views: 156.0ms | ActiveRecord: 15.6ms)
+Started GET "/ssl_site/users/sign_up" for 10.246.130.31 at 2015-07-20 13:15:36 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 31ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+Started POST "/ssl_site/users" for 10.246.130.31 at 2015-07-20 13:15:55 -0400
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JTMx+0Y44G+xjTRZY9CyKrAX0X+pN6h7Qqo7LwBDpoQ=", "user"=>{"email"=>"alex@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+Redirected to http://10.246.130.31:3000/ssl_site/
+Completed 302 Found in 530ms (ActiveRecord: 374.4ms)
+Started GET "/ssl_site/" for 10.246.130.31 at 2015-07-20 13:15:56 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started DELETE "/ssl_site/users/sign_out" for 10.246.130.31 at 2015-07-20 13:16:06 -0400
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"JTMx+0Y44G+xjTRZY9CyKrAX0X+pN6h7Qqo7LwBDpoQ="}
+Redirected to http://10.246.130.31:3000/ssl_site/
+Completed 302 Found in 62ms (ActiveRecord: 0.0ms)
+Started GET "/ssl_site/" for 10.246.130.31 at 2015-07-20 13:16:06 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (15.6ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl_site/users/sign_in" for 10.246.130.31 at 2015-07-20 13:16:08 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started POST "/ssl_site/users/sign_in" for 10.246.130.31 at 2015-07-20 13:16:19 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1+rj2kp4B0Z4TLxLZ4txrVOeMsRjrj7erRRDcV4Ny+A=", "user"=>{"email"=>"alex@test.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+Redirected to http://10.246.130.31:3000/ssl_site/
+Completed 302 Found in 125ms (ActiveRecord: 0.0ms)
+Started GET "/ssl_site/" for 10.246.130.31 at 2015-07-20 13:16:19 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl_site/doc" for 10.246.130.31 at 2015-07-20 13:16:26 -0400
+Processing by DocController#index as HTML
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 343ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl_site/" for 10.246.130.31 at 2015-07-20 13:16:31 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (15.6ms)
+  Rendered ssl/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl_site/" for 10.246.130.31 at 2015-07-20 13:16:48 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)

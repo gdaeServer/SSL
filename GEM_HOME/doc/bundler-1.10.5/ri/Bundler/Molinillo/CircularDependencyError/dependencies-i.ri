@@ -1,0 +1,4 @@
+U:RDoc::Attr[iI"dependencies:EFI"=Bundler::Molinillo::CircularDependencyError#dependencies;FI"R;F:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::List:
+@type:
+LABEL:@items[o:RDoc::Markup::ListItem:@labelI"Set<Object>:encoding"IBM437;	[o:RDoc::Markup::Paragraph;	[I"7the dependencies responsible for causing the error;@:
+@file0FI"9lib/bundler/vendor/molinillo/lib/molinillo/errors.rb;@

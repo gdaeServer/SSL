@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=IBM437" http-equiv="Content-Type" />
+
+  <title>File: inline.rb [bundler-1.10.5 Documentation]</title>
+
+  <link type="text/css" media="screen" href="../../rdoc.css" rel="stylesheet" />
+
+  <script src="../../js/jquery.js" type="text/javascript"
+    charset="utf-8"></script>
+  <script src="../../js/thickbox-compressed.js" type="text/javascript"
+    charset="utf-8"></script>
+  <script src="../../js/quicksearch.js" type="text/javascript"
+    charset="utf-8"></script>
+  <script src="../../js/darkfish.js" type="text/javascript"
+    charset="utf-8"></script>
+</head>
+
+<body class="file file-popup">
+  <div id="metadata">
+    <dl>
+      <dt class="modified-date">Last Modified</dt>
+      <dd class="modified-date">2015-07-20 10:16:11 -0400</dd>
+
+      
+      <dt class="requires">Requires</dt>
+      <dd class="requires">
+        <ul>
+        
+          <li>bundler</li>
+        
+        </ul>
+      </dd>
+      
+
+      
+    </dl>
+  </div>
+
+  <div id="documentation">
+    
+    <div class="description">
+      <h2>Description</h2>
+      
+<p>Allows for declaring a Gemfile inline in a ruby script, optionally
+installing any gems that aren't already installed on the user's system.</p>
+
+<p>@note Every gem that is specified in this 'Gemfile' will be `require`d, as
+if</p>
+
+<pre>the user had manually called `Bundler.require`. To avoid a requested gem
+being automatically required, add the `:require =&gt; false` option to the
+`gem` dependency declaration.</pre>
+
+<p>@param install [Boolean] whether gems that aren't already installed on the</p>
+
+<pre>user's system should be installed.
+Defaults to `false`.</pre>
+
+<p>@param gemfile [Proc]    a block that is evaluated as a `Gemfile`.</p>
+
+<p>@example Using an inline Gemfile</p>
+
+<pre>#!/usr/bin/env ruby
+
+require 'bundler/inline'
+
+gemfile do
+  source 'https://rubygems.org'
+  gem 'json', require: false
+  gem 'nap', require: 'rest'
+  gem 'cocoapods', '~&gt; 0.34.1'
+end
+
+puts Pod::VERSION # =&gt; &quot;0.34.4&quot;</pre>
+
+    </div>
+    
+  </div>
+</body>
+</html>
+

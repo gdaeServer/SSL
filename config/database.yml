@@ -21,5 +21,8 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: myapp_production
+  username: postgres
+  password: gdae2015
+  database: db/production
+  #database: db/development.sqlite3
   pool: 5

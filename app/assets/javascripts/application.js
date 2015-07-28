@@ -14,6 +14,5 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap-sprockets
-//= require analytics
 //= require jquery.infinitescroll
 //= require_tree .

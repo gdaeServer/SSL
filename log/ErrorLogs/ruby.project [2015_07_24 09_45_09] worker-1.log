@@ -1,0 +1,7 @@
+Started GET "/ssl_site" for 10.246.130.31 at 2015-07-24 09:45:22 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (15.6ms)
+Completed 200 OK in 47ms (Views: 31.2ms | ActiveRecord: 0.0ms)

@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"backtrace:EFI"%Bundler::Dsl::DSLError#backtrace;FI"R;F:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"E@return [Exception] the backtrace of the exception raised by the:encoding"IBM437o:RDoc::Markup::Verbatim;	[I" evaluation of the dsl file.;F:
+@file0FI"lib/bundler/dsl.rb;@

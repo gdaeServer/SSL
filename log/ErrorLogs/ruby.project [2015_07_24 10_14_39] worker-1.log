@@ -1,0 +1,187 @@
+Started GET "/ssl" for 10.246.130.31 at 2015-07-24 10:14:55 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (46.8ms)
+Completed 200 OK in 94ms (Views: 78.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/" for 10.246.130.31 at 2015-07-24 10:16:17 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl" for 10.246.130.31 at 2015-07-24 10:16:25 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl" for 130.64.3.142 at 2015-07-24 10:16:30 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (15.6ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl" for 130.64.3.142 at 2015-07-24 10:17:33 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl" for 130.64.3.122 at 2015-07-24 11:10:23 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl" for 130.64.3.122 at 2015-07-24 11:10:37 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl" for 130.64.3.122 at 2015-07-24 11:10:43 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc" for 130.64.3.122 at 2015-07-24 11:11:01 -0400
+Processing by DocController#index as HTML
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (46.8ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 577ms (Views: 78.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=2" for 130.64.3.122 at 2015-07-24 11:11:03 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"2"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 359ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/" for 130.64.3.122 at 2015-07-24 11:11:06 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (15.6ms)
+  Rendered ssl/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/" for 130.64.3.122 at 2015-07-24 11:13:23 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/" for 130.64.3.122 at 2015-07-24 11:13:41 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/ssl/about" for 130.64.3.122 at 2015-07-24 11:13:45 -0400
+Processing by SslController#about as HTML
+  Rendered ssl/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (15.6ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/ssl/search" for 130.64.3.122 at 2015-07-24 11:13:49 -0400
+Processing by SslController#search as HTML
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/search.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc" for 130.64.3.122 at 2015-07-24 11:13:50 -0400
+Processing by DocController#index as HTML
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 343ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/" for 130.64.3.122 at 2015-07-24 11:13:51 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (15.6ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/" for 130.64.3.122 at 2015-07-24 11:18:11 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl" for 10.246.130.31 at 2015-07-24 11:42:26 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/" for 130.64.3.122 at 2015-07-24 11:52:33 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl" for 10.246.130.31 at 2015-07-24 12:22:28 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl" for 10.246.130.31 at 2015-07-24 13:56:43 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl" for 10.246.130.31 at 2015-07-24 13:59:25 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl" for 10.246.130.31 at 2015-07-24 13:59:28 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (15.6ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl" for 10.246.130.31 at 2015-07-24 13:59:30 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl" for 10.246.130.31 at 2015-07-24 14:06:10 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (46.8ms)
+  Rendered ssl/index.html.erb within layouts/application (46.8ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 47ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/" for 130.64.3.220 at 2015-07-24 14:06:18 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)

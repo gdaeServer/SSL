@@ -1,0 +1,1 @@
+(function(){$(document).ready(function(){return $("#docs .page").infinitescroll({navSelector:"nav.pagination",nextSelector:"nav.pagination a[rel=next]",itemSelector:"#docs tr.doc"})})}).call(this);

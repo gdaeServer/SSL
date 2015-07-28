@@ -1,0 +1,781 @@
+Started GET "/ssl/" for 130.64.106.240 at 2015-07-28 11:49:17 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (46.8ms)
+Completed 200 OK in 94ms (Views: 62.4ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc" for 130.64.106.240 at 2015-07-28 11:49:51 -0400
+Processing by DocController#index as HTML
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (46.8ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 1123ms (Views: 62.4ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=2" for 130.64.106.240 at 2015-07-28 11:49:55 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"2"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 811ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=3" for 130.64.106.240 at 2015-07-28 11:49:57 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"3"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 468ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=4" for 130.64.106.240 at 2015-07-28 11:49:58 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"4"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 499ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=5" for 130.64.106.240 at 2015-07-28 11:50:00 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"5"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 468ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=6" for 130.64.106.240 at 2015-07-28 11:50:01 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"6"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 499ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=7" for 130.64.106.240 at 2015-07-28 11:50:02 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"7"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (15.6ms)
+  Rendered doc/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 499ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=8" for 130.64.106.240 at 2015-07-28 11:50:04 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"8"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (15.6ms)
+  Rendered doc/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 468ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=9" for 130.64.106.240 at 2015-07-28 11:50:05 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"9"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 437ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?sort_by=author" for 130.64.106.240 at 2015-07-28 11:50:18 -0400
+Processing by DocController#index as HTML
+  Parameters: {"sort_by"=>"author"}
+filters, line 159
+Completed 500 Internal Server Error in 3728ms
+
+Mongo::OperationFailure (Runner error: Overflow sort stage buffered data usage of 33559770 bytes exceeds internal limit of 33554432 bytes):
+  app/controllers/doc_controller.rb:12:in `first'
+  app/controllers/doc_controller.rb:12:in `index'
+
+
+Started GET "/ssl/doc?sort_by=author" for 130.64.106.240 at 2015-07-28 11:50:22 -0400
+Processing by DocController#index as HTML
+  Parameters: {"sort_by"=>"author"}
+filters, line 159
+Completed 500 Internal Server Error in 234ms
+
+Mongo::OperationFailure (Runner error: Overflow sort stage buffered data usage of 33559770 bytes exceeds internal limit of 33554432 bytes):
+  app/controllers/doc_controller.rb:12:in `first'
+  app/controllers/doc_controller.rb:12:in `index'
+
+
+Started GET "/ssl/ssl/search" for 130.64.106.240 at 2015-07-28 11:52:41 -0400
+Processing by SslController#search as HTML
+  Rendered ssl/_ssl_search.html.erb (15.6ms)
+  Rendered ssl/search.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc" for 130.64.106.240 at 2015-07-28 11:52:45 -0400
+Processing by DocController#index as HTML
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (15.6ms)
+Completed 200 OK in 546ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/ssl/search" for 130.64.106.240 at 2015-07-28 11:52:51 -0400
+Processing by SslController#search as HTML
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/search.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc" for 130.64.106.240 at 2015-07-28 11:52:54 -0400
+Processing by DocController#index as HTML
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (15.6ms)
+Completed 200 OK in 390ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/ssl/search" for 130.64.106.240 at 2015-07-28 11:52:55 -0400
+Processing by SslController#search as HTML
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/search.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?utf8=%E2%9C%93&title=&author=sen&isbn=&disciplines=&keywords=&publisher=&commit=Search" for 130.64.106.240 at 2015-07-28 11:53:00 -0400
+Processing by DocController#index as HTML
+  Parameters: {"utf8"=>"✓", "title"=>"", "author"=>"sen", "isbn"=>"", "disciplines"=>"", "keywords"=>"", "publisher"=>"", "commit"=>"Search"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (15.6ms)
+  Rendered doc/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 5897ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?author=sen&commit=Search&disciplines=&isbn=&keywords=&page=2&publisher=&title=&utf8=%E2%9C%93" for 130.64.106.240 at 2015-07-28 11:55:42 -0400
+Processing by DocController#index as HTML
+  Parameters: {"author"=>"sen", "commit"=>"Search", "disciplines"=>"", "isbn"=>"", "keywords"=>"", "page"=>"2", "publisher"=>"", "title"=>"", "utf8"=>"✓"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (15.6ms)
+Completed 200 OK in 3588ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc" for 130.64.106.240 at 2015-07-28 12:06:30 -0400
+Processing by DocController#index as HTML
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 484ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc/FETCH-LOGICAL-g1315-19676131e142f617a54a1a57f897424d9fb88bae391a3c15ec1b24b4ce2cd6a53" for 130.64.106.240 at 2015-07-28 12:08:02 -0400
+Processing by DocController#show as HTML
+  Parameters: {"id"=>"FETCH-LOGICAL-g1315-19676131e142f617a54a1a57f897424d9fb88bae391a3c15ec1b24b4ce2cd6a53"}
+  Rendered doc/_doc.html.erb (0.0ms)
+  Rendered doc/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl" for 130.64.149.130 at 2015-07-28 12:08:27 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc" for 130.64.149.130 at 2015-07-28 12:08:29 -0400
+Processing by DocController#index as HTML
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 437ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc/FETCH-LOGICAL-c2704-bc871eeab8d942dd6c3f00878b43dda84d8a62862106d14aef92ac6ef578e2c63" for 130.64.149.130 at 2015-07-28 12:08:31 -0400
+Processing by DocController#show as HTML
+  Parameters: {"id"=>"FETCH-LOGICAL-c2704-bc871eeab8d942dd6c3f00878b43dda84d8a62862106d14aef92ac6ef578e2c63"}
+  Rendered doc/_doc.html.erb (0.0ms)
+  Rendered doc/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 125ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/" for 130.64.106.240 at 2015-07-28 12:08:33 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=2" for 130.64.149.130 at 2015-07-28 12:08:34 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"2"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 421ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=3" for 130.64.149.130 at 2015-07-28 12:08:35 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"3"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (15.6ms)
+  Rendered doc/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 343ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=4" for 130.64.149.130 at 2015-07-28 12:08:37 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"4"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 374ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=5" for 130.64.149.130 at 2015-07-28 12:09:10 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"5"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (15.6ms)
+  Rendered doc/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 390ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=6" for 130.64.149.130 at 2015-07-28 12:09:47 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"6"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 374ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=7" for 130.64.149.130 at 2015-07-28 12:09:48 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"7"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 421ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=8" for 130.64.149.130 at 2015-07-28 12:09:51 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"8"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 421ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=9" for 130.64.149.130 at 2015-07-28 12:09:52 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"9"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 390ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/raw/FETCH-LOGICAL-c2704-bc871eeab8d942dd6c3f00878b43dda84d8a62862106d14aef92ac6ef578e2c63" for 130.64.149.130 at 2015-07-28 12:09:55 -0400
+Processing by DocController#raw as HTML
+  Parameters: {"id"=>"FETCH-LOGICAL-c2704-bc871eeab8d942dd6c3f00878b43dda84d8a62862106d14aef92ac6ef578e2c63"}
+Completed 200 OK in 390ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/raw/FETCH-LOGICAL-c2704-bc871eeab8d942dd6c3f00878b43dda84d8a62862106d14aef92ac6ef578e2c63" for 130.64.149.130 at 2015-07-28 12:09:56 -0400
+Processing by DocController#raw as HTML
+  Parameters: {"id"=>"FETCH-LOGICAL-c2704-bc871eeab8d942dd6c3f00878b43dda84d8a62862106d14aef92ac6ef578e2c63"}
+Completed 200 OK in 172ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc/FETCH-LOGICAL-c2704-bc871eeab8d942dd6c3f00878b43dda84d8a62862106d14aef92ac6ef578e2c63" for 130.64.149.130 at 2015-07-28 12:10:57 -0400
+Processing by DocController#show as HTML
+  Parameters: {"id"=>"FETCH-LOGICAL-c2704-bc871eeab8d942dd6c3f00878b43dda84d8a62862106d14aef92ac6ef578e2c63"}
+  Rendered doc/_doc.html.erb (0.0ms)
+  Rendered doc/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 109ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/raw/FETCH-LOGICAL-c2704-bc871eeab8d942dd6c3f00878b43dda84d8a62862106d14aef92ac6ef578e2c63" for 130.64.149.130 at 2015-07-28 12:11:18 -0400
+Processing by DocController#raw as HTML
+  Parameters: {"id"=>"FETCH-LOGICAL-c2704-bc871eeab8d942dd6c3f00878b43dda84d8a62862106d14aef92ac6ef578e2c63"}
+Completed 200 OK in 109ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/raw/FETCH-LOGICAL-c2704-bc871eeab8d942dd6c3f00878b43dda84d8a62862106d14aef92ac6ef578e2c63" for 130.64.149.130 at 2015-07-28 12:11:18 -0400
+Processing by DocController#raw as HTML
+  Parameters: {"id"=>"FETCH-LOGICAL-c2704-bc871eeab8d942dd6c3f00878b43dda84d8a62862106d14aef92ac6ef578e2c63"}
+Completed 200 OK in 109ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc/FETCH-LOGICAL-c2704-bc871eeab8d942dd6c3f00878b43dda84d8a62862106d14aef92ac6ef578e2c63" for 130.64.149.130 at 2015-07-28 12:12:03 -0400
+Processing by DocController#show as HTML
+  Parameters: {"id"=>"FETCH-LOGICAL-c2704-bc871eeab8d942dd6c3f00878b43dda84d8a62862106d14aef92ac6ef578e2c63"}
+  Rendered doc/_doc.html.erb (0.0ms)
+  Rendered doc/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 125ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc" for 130.64.149.130 at 2015-07-28 12:12:06 -0400
+Processing by DocController#index as HTML
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (15.6ms)
+  Rendered doc/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 421ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc/FETCH-LOGICAL-c2137-19f048f66ad311eb6c1b362cbb7f0d687003e716300f9eed1d27113813b1358b3" for 130.64.149.130 at 2015-07-28 12:12:08 -0400
+Processing by DocController#show as HTML
+  Parameters: {"id"=>"FETCH-LOGICAL-c2137-19f048f66ad311eb6c1b362cbb7f0d687003e716300f9eed1d27113813b1358b3"}
+  Rendered doc/_doc.html.erb (0.0ms)
+  Rendered doc/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 125ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/" for 130.64.149.130 at 2015-07-28 12:12:40 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=2" for 130.64.149.130 at 2015-07-28 12:14:54 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"2"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (15.6ms)
+  Rendered doc/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 374ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?utf8=%E2%9C%93&title=&author=roger+smith&isbn=&disciplines=&keywords=&publisher=&commit=Search" for 130.64.106.240 at 2015-07-28 12:15:42 -0400
+Processing by DocController#index as HTML
+  Parameters: {"utf8"=>"✓", "title"=>"", "author"=>"roger smith", "isbn"=>"", "disciplines"=>"", "keywords"=>"", "publisher"=>"", "commit"=>"Search"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 3463ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?author=roger+smith&commit=Search&disciplines=&isbn=&keywords=&page=2&publisher=&title=&utf8=%E2%9C%93" for 130.64.106.240 at 2015-07-28 12:15:55 -0400
+Processing by DocController#index as HTML
+  Parameters: {"author"=>"roger smith", "commit"=>"Search", "disciplines"=>"", "isbn"=>"", "keywords"=>"", "page"=>"2", "publisher"=>"", "title"=>"", "utf8"=>"✓"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (15.6ms)
+  Rendered doc/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 437ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc/FETCH-LOGICAL-c2651-2ccdedd83b2dc13c1943da624e83eb6af7154415aa587485c9b65258743354b53" for 130.64.106.240 at 2015-07-28 12:16:13 -0400
+Processing by DocController#show as HTML
+  Parameters: {"id"=>"FETCH-LOGICAL-c2651-2ccdedd83b2dc13c1943da624e83eb6af7154415aa587485c9b65258743354b53"}
+  Rendered doc/_doc.html.erb (0.0ms)
+  Rendered doc/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 125ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?author=roger+smith&commit=Search&disciplines=&isbn=&keywords=&page=3&publisher=&title=&utf8=%E2%9C%93" for 130.64.106.240 at 2015-07-28 12:16:16 -0400
+Processing by DocController#index as HTML
+  Parameters: {"author"=>"roger smith", "commit"=>"Search", "disciplines"=>"", "isbn"=>"", "keywords"=>"", "page"=>"3", "publisher"=>"", "title"=>"", "utf8"=>"✓"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 608ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?author=roger+smith&commit=Search&disciplines=&isbn=&keywords=&page=4&publisher=&title=&utf8=%E2%9C%93" for 130.64.106.240 at 2015-07-28 12:16:20 -0400
+Processing by DocController#index as HTML
+  Parameters: {"author"=>"roger smith", "commit"=>"Search", "disciplines"=>"", "isbn"=>"", "keywords"=>"", "page"=>"4", "publisher"=>"", "title"=>"", "utf8"=>"✓"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 359ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?utf8=%E2%9C%93&title=&author=roger+smith&isbn=&disciplines=&keywords=&publisher=&commit=Search" for 130.64.106.240 at 2015-07-28 12:16:30 -0400
+Processing by DocController#index as HTML
+  Parameters: {"utf8"=>"✓", "title"=>"", "author"=>"roger smith", "isbn"=>"", "disciplines"=>"", "keywords"=>"", "publisher"=>"", "commit"=>"Search"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (15.6ms)
+Completed 200 OK in 468ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?author=roger+smith&commit=Search&disciplines=&isbn=&keywords=&page=2&publisher=&title=&utf8=%E2%9C%93" for 130.64.106.240 at 2015-07-28 12:17:15 -0400
+Processing by DocController#index as HTML
+  Parameters: {"author"=>"roger smith", "commit"=>"Search", "disciplines"=>"", "isbn"=>"", "keywords"=>"", "page"=>"2", "publisher"=>"", "title"=>"", "utf8"=>"✓"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 515ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?author=roger+smith&commit=Search&disciplines=&isbn=&keywords=&page=3&publisher=&title=&utf8=%E2%9C%93" for 130.64.106.240 at 2015-07-28 12:17:16 -0400
+Processing by DocController#index as HTML
+  Parameters: {"author"=>"roger smith", "commit"=>"Search", "disciplines"=>"", "isbn"=>"", "keywords"=>"", "page"=>"3", "publisher"=>"", "title"=>"", "utf8"=>"✓"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 530ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?author=roger+smith&commit=Search&disciplines=&isbn=&keywords=&page=4&publisher=&title=&utf8=%E2%9C%93" for 130.64.106.240 at 2015-07-28 12:17:17 -0400
+Processing by DocController#index as HTML
+  Parameters: {"author"=>"roger smith", "commit"=>"Search", "disciplines"=>"", "isbn"=>"", "keywords"=>"", "page"=>"4", "publisher"=>"", "title"=>"", "utf8"=>"✓"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/" for 130.64.106.240 at 2015-07-28 12:17:33 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (15.6ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?utf8=%E2%9C%93&title=&author=sylvain&isbn=&disciplines=&keywords=&publisher=&commit=Search" for 130.64.106.240 at 2015-07-28 12:17:39 -0400
+Processing by DocController#index as HTML
+  Parameters: {"utf8"=>"✓", "title"=>"", "author"=>"sylvain", "isbn"=>"", "disciplines"=>"", "keywords"=>"", "publisher"=>"", "commit"=>"Search"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc/FETCH-LOGICAL-c2704-bc871eeab8d942dd6c3f00878b43dda84d8a62862106d14aef92ac6ef578e2c63" for 130.64.106.240 at 2015-07-28 12:17:50 -0400
+Processing by DocController#show as HTML
+  Parameters: {"id"=>"FETCH-LOGICAL-c2704-bc871eeab8d942dd6c3f00878b43dda84d8a62862106d14aef92ac6ef578e2c63"}
+  Rendered doc/_doc.html.erb (0.0ms)
+  Rendered doc/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 109ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?utf8=%E2%9C%93&title=&author=sylvain&isbn=&disciplines=&keywords=&publisher=&commit=Search" for 130.64.106.240 at 2015-07-28 12:18:53 -0400
+Processing by DocController#index as HTML
+  Parameters: {"utf8"=>"✓", "title"=>"", "author"=>"sylvain", "isbn"=>"", "disciplines"=>"", "keywords"=>"", "publisher"=>"", "commit"=>"Search"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 218ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?utf8=%E2%9C%93&title=&author=roger+smith&isbn=&disciplines=&keywords=&publisher=&commit=Search" for 130.64.106.240 at 2015-07-28 12:18:55 -0400
+Processing by DocController#index as HTML
+  Parameters: {"utf8"=>"✓", "title"=>"", "author"=>"roger smith", "isbn"=>"", "disciplines"=>"", "keywords"=>"", "publisher"=>"", "commit"=>"Search"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (31.2ms)
+Completed 200 OK in 484ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?utf8=%E2%9C%93&title=&author=roger+smith&keywords=&commit=Search" for 130.64.106.240 at 2015-07-28 12:19:09 -0400
+Processing by DocController#index as HTML
+  Parameters: {"utf8"=>"✓", "title"=>"", "author"=>"roger smith", "keywords"=>"", "commit"=>"Search"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (15.6ms)
+  Rendered doc/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 499ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc" for 130.64.106.240 at 2015-07-28 12:19:34 -0400
+Processing by DocController#index as HTML
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (15.6ms)
+  Rendered doc/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 343ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/ssl/search" for 130.64.106.240 at 2015-07-28 12:19:37 -0400
+Processing by SslController#search as HTML
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/search.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc" for 130.64.106.240 at 2015-07-28 12:19:40 -0400
+Processing by DocController#index as HTML
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (15.6ms)
+  Rendered doc/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 343ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=2" for 130.64.106.240 at 2015-07-28 12:19:43 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"2"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (15.6ms)
+  Rendered doc/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 359ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?author=roger+smith&commit=Search&keywords=&page=2&title=&utf8=%E2%9C%93" for 130.64.106.240 at 2015-07-28 12:19:43 -0400
+Processing by DocController#index as HTML
+  Parameters: {"author"=>"roger smith", "commit"=>"Search", "keywords"=>"", "page"=>"2", "title"=>"", "utf8"=>"✓"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 437ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=2" for 130.64.106.240 at 2015-07-28 12:19:44 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"2"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (15.6ms)
+Completed 200 OK in 359ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?author=roger+smith&commit=Search&keywords=&page=3&title=&utf8=%E2%9C%93" for 130.64.106.240 at 2015-07-28 12:19:44 -0400
+Processing by DocController#index as HTML
+  Parameters: {"author"=>"roger smith", "commit"=>"Search", "keywords"=>"", "page"=>"3", "title"=>"", "utf8"=>"✓"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=3" for 130.64.106.240 at 2015-07-28 12:19:45 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"3"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (15.6ms)
+  Rendered doc/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 343ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=3" for 130.64.106.240 at 2015-07-28 12:19:45 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"3"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (15.6ms)
+  Rendered doc/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 343ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?author=roger+smith&commit=Search&keywords=&page=4&title=&utf8=%E2%9C%93" for 130.64.106.240 at 2015-07-28 12:19:46 -0400
+Processing by DocController#index as HTML
+  Parameters: {"author"=>"roger smith", "commit"=>"Search", "keywords"=>"", "page"=>"4", "title"=>"", "utf8"=>"✓"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 265ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=4" for 130.64.106.240 at 2015-07-28 12:19:46 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"4"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 343ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=4" for 130.64.106.240 at 2015-07-28 12:19:47 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"4"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/" for 130.64.106.240 at 2015-07-28 12:20:01 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (15.6ms)
+  Rendered ssl/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc" for 130.64.106.240 at 2015-07-28 12:20:06 -0400
+Processing by DocController#index as HTML
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 343ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/" for 130.64.106.240 at 2015-07-28 12:20:11 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (15.6ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/users/sign_in" for 130.64.106.240 at 2015-07-28 12:21:47 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (124.8ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 187ms (Views: 140.4ms | ActiveRecord: 15.6ms)
+Started GET "/ssl/users/password/new" for 130.64.106.240 at 2015-07-28 12:22:00 -0400
+Processing by Devise::PasswordsController#new as HTML
+  Rendered devise/shared/_links.erb (0.0ms)
+  Rendered devise/passwords/new.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (15.6ms)
+Completed 200 OK in 31ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started POST "/ssl/users/password" for 130.64.106.240 at 2015-07-28 12:22:07 -0400
+Processing by Devise::PasswordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cd51wHgt72RMMbHBZnSC12M8G5I0siS6PvFKPTlajIY=", "user"=>{"email"=>"mitchell.stallman@tufts.edu"}, "commit"=>"Send me reset password instructions"}
+  Rendered devise/shared/_links.erb (0.0ms)
+  Rendered devise/passwords/new.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 31ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started POST "/ssl/users/password" for 130.64.106.240 at 2015-07-28 12:22:17 -0400
+Processing by Devise::PasswordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cd51wHgt72RMMbHBZnSC12M8G5I0siS6PvFKPTlajIY=", "user"=>{"email"=>"mitch.stallman@gmail.com"}, "commit"=>"Send me reset password instructions"}
+  Rendered devise/shared/_links.erb (0.0ms)
+  Rendered devise/passwords/new.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started POST "/ssl/users/password" for 130.64.106.240 at 2015-07-28 12:22:19 -0400
+Processing by Devise::PasswordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cd51wHgt72RMMbHBZnSC12M8G5I0siS6PvFKPTlajIY=", "user"=>{"email"=>"mitch.stallman@gmail.com"}, "commit"=>"Send me reset password instructions"}
+  Rendered devise/shared/_links.erb (0.0ms)
+  Rendered devise/passwords/new.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started POST "/ssl/users/password" for 130.64.106.240 at 2015-07-28 12:22:20 -0400
+Processing by Devise::PasswordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cd51wHgt72RMMbHBZnSC12M8G5I0siS6PvFKPTlajIY=", "user"=>{"email"=>"mitch.stallman@gmail.com"}, "commit"=>"Send me reset password instructions"}
+  Rendered devise/shared/_links.erb (0.0ms)
+  Rendered devise/passwords/new.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started POST "/ssl/users/password" for 130.64.106.240 at 2015-07-28 12:22:21 -0400
+Processing by Devise::PasswordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cd51wHgt72RMMbHBZnSC12M8G5I0siS6PvFKPTlajIY=", "user"=>{"email"=>"mitch.stallman@gmail.com"}, "commit"=>"Send me reset password instructions"}
+  Rendered devise/shared/_links.erb (0.0ms)
+  Rendered devise/passwords/new.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/users/sign_up" for 130.64.106.240 at 2015-07-28 12:22:33 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/users/sign_in" for 130.64.106.240 at 2015-07-28 12:22:40 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl" for 10.246.130.31 at 2015-07-28 12:29:24 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc" for 10.246.130.31 at 2015-07-28 12:29:35 -0400
+Processing by DocController#index as HTML
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (15.6ms)
+  Rendered doc/index.html.erb within layouts/application (31.2ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 406ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?sort_by=author" for 10.246.130.31 at 2015-07-28 12:29:37 -0400
+Processing by DocController#index as HTML
+  Parameters: {"sort_by"=>"author"}
+filters, line 159
+Completed 500 Internal Server Error in 359ms
+
+Mongo::OperationFailure (Runner error: Overflow sort stage buffered data usage of 33559770 bytes exceeds internal limit of 33554432 bytes):
+  app/controllers/doc_controller.rb:12:in `first'
+  app/controllers/doc_controller.rb:12:in `index'
+
+
+Started GET "/ssl/doc?sort_by=author" for 10.246.130.31 at 2015-07-28 12:29:38 -0400
+Processing by DocController#index as HTML
+  Parameters: {"sort_by"=>"author"}
+filters, line 159
+Completed 500 Internal Server Error in 156ms
+
+Mongo::OperationFailure (Runner error: Overflow sort stage buffered data usage of 33559770 bytes exceeds internal limit of 33554432 bytes):
+  app/controllers/doc_controller.rb:12:in `first'
+  app/controllers/doc_controller.rb:12:in `index'
+
+
+Started GET "/ssl/" for 130.64.106.240 at 2015-07-28 12:36:27 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc" for 130.64.106.240 at 2015-07-28 12:36:33 -0400
+Processing by DocController#index as HTML
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (15.6ms)
+  Rendered doc/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 374ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=2" for 130.64.106.240 at 2015-07-28 12:36:36 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"2"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (15.6ms)
+  Rendered doc/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 374ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=3" for 130.64.106.240 at 2015-07-28 12:36:37 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"3"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (15.6ms)
+  Rendered doc/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 374ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc" for 130.64.2.36 at 2015-07-28 12:39:02 -0400
+Processing by DocController#index as HTML
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (15.6ms)
+  Rendered doc/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 359ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc/FETCH-LOGICAL-c2137-19f048f66ad311eb6c1b362cbb7f0d687003e716300f9eed1d27113813b1358b3" for 130.64.2.36 at 2015-07-28 12:42:44 -0400
+Processing by DocController#show as HTML
+  Parameters: {"id"=>"FETCH-LOGICAL-c2137-19f048f66ad311eb6c1b362cbb7f0d687003e716300f9eed1d27113813b1358b3"}
+  Rendered doc/_doc.html.erb (0.0ms)
+  Rendered doc/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 109ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=2" for 130.64.2.36 at 2015-07-28 12:42:45 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"2"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 374ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=3" for 130.64.2.36 at 2015-07-28 12:42:45 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"3"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=4" for 130.64.2.36 at 2015-07-28 12:44:37 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"4"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 343ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=3" for 130.64.2.36 at 2015-07-28 12:44:37 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"3"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (15.6ms)
+Completed 200 OK in 343ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/" for 130.64.2.36 at 2015-07-28 12:48:41 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=5" for 130.64.2.36 at 2015-07-28 12:48:45 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"5"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (15.6ms)
+Completed 200 OK in 359ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=4" for 130.64.2.36 at 2015-07-28 12:48:46 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"4"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (15.6ms)
+  Rendered doc/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 343ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=6" for 130.64.2.36 at 2015-07-28 12:48:46 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"6"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 374ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc?page=5" for 130.64.2.36 at 2015-07-28 12:48:47 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"5"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 359ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl" for 10.246.130.31 at 2015-07-28 12:53:54 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (15.6ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/doc/FETCH-LOGICAL-c2704-bc871eeab8d942dd6c3f00878b43dda84d8a62862106d14aef92ac6ef578e2c63" for 130.64.106.240 at 2015-07-28 13:25:11 -0400
+Processing by DocController#show as HTML
+  Parameters: {"id"=>"FETCH-LOGICAL-c2704-bc871eeab8d942dd6c3f00878b43dda84d8a62862106d14aef92ac6ef578e2c63"}
+  Rendered doc/_doc.html.erb (1.0ms)
+  Rendered doc/show.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_ssl_nav.html.erb (3.0ms)
+Completed 200 OK in 168ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/" for 130.64.106.240 at 2015-07-28 13:27:32 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (2.0ms)
+  Rendered ssl/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_ssl_nav.html.erb (3.0ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl/" for 10.246.130.31 at 2015-07-28 13:45:59 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)

@@ -1,0 +1,80 @@
+Started GET "/ssl_site/" for 10.246.130.31 at 2015-07-22 10:14:41 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (15.6ms)
+Completed 200 OK in 62ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+Started GET "/ssl_site/" for 10.246.130.31 at 2015-07-22 10:15:24 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (31.2ms)
+Completed 200 OK in 47ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+Started GET "/ssl_site/doc" for 10.246.130.31 at 2015-07-22 10:15:26 -0400
+Processing by DocController#index as HTML
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (31.2ms)
+  Rendered layouts/_ssl_nav.html.erb (15.6ms)
+Completed 200 OK in 437ms (Views: 62.4ms | ActiveRecord: 0.0ms)
+Started GET "/ssl_site/ssl/search" for 10.246.130.31 at 2015-07-22 10:15:29 -0400
+Processing by SslController#search as HTML
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/search.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl_site/doc" for 10.246.130.31 at 2015-07-22 10:15:30 -0400
+Processing by DocController#index as HTML
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 359ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl_site/doc?page=2" for 10.246.130.31 at 2015-07-22 10:16:08 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"2"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (31.2ms)
+  Rendered layouts/_ssl_nav.html.erb (15.6ms)
+Completed 200 OK in 427ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+Started GET "/ssl_site/doc?page=2" for 10.246.130.31 at 2015-07-22 10:16:08 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"2"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 371ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl_site/doc?page=3" for 10.246.130.31 at 2015-07-22 10:16:09 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"3"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl_site/doc?page=3" for 10.246.130.31 at 2015-07-22 10:16:10 -0400
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"3"}
+filters, line 159
+  Rendered doc/_doc_table_body.html.erb (0.0ms)
+  Rendered doc/index.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 361ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Started GET "/ssl_site/" for 10.246.130.31 at 2015-07-22 10:16:12 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Started GET "/ssl_site" for 10.246.130.31 at 2015-07-22 10:22:34 -0400
+Processing by SslController#index as HTML
+index ssl 3
+  Rendered ssl/_ssl_search.html.erb (0.0ms)
+  Rendered ssl/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_ssl_nav.html.erb (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
