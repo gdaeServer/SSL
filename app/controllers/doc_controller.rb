@@ -5,6 +5,7 @@ require 'uri'
 
 class DocController < ApplicationController
 	def index
+		#TEST PUSH PULL
 		#puts "Index, line " + "8"
 		@cursor = ssl.find(filters).sort(sorted_by)
 		@docs = []
@@ -153,6 +154,7 @@ class DocController < ApplicationController
 			db_name = "heroku_app34131114"
 			client = MongoClient.from_uri(mongo_uri)
 			db = client.db(db_name)
+			db.collection('ssl').create_index("authors.surname")
 			col = db.collection('ssl')
 			col
 		end
@@ -190,7 +192,12 @@ class DocController < ApplicationController
 			#puts "sorted by, line " + "203"
 			srt = {}
 			if params.has_key?(:sort_by) and params[:sort_by].match(/^[[:alnum:]\ ]+$/)
-				srt[params[:sort_by]] = 1
+				if params[:sort_by] == "author"
+					puts "Here \n\n\n"
+					srt["authors.surname"] = -1
+				else
+					srt[params[:sort_by]] = 1
+				end
 			else
 				srt[:title] = 1
 			end
