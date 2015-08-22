@@ -2,16 +2,7 @@
   <% doc = d %>
   <tr class="doc">
     <td><a href=<%= doc_path(id: doc['id']) %>><%= if not doc['full_title'].nil? then doc['full_title'].html_safe else doc['title'].html_safe end %></a></td>
-        <% if doc['authors'].class == String
-               then authors = eval(doc['authors'].gsub('u\'', '\'').gsub(':', '=>')) 
-        else authors = doc['authors'] end %>
-    <td>
-      <% if not authors.nil? and not authors[0].nil? and not authors[0]['fullname'].nil?%>
-        <%= authors[0]['fullname'].html_safe %>
-      <% elsif not authors[0].nil? %>
-        <%= authors[0]['fullname'].html_safe %>
-      <% end %>
-    </td>
+    <td><%= doc['pretty_name'] %></td>
     <td><%= doc['isbn'] %></td>
   </tr>
 <% end %>

@@ -1,37 +1,59 @@
-<div class="ssl-table-search">
-  <%= form_tag("/doc", method: "get") do %>
-    <%= label_tag(:title, "Search for title:") %>
-    <%= text_field_tag(:title, params[:title])%>
-    <%= label_tag(:author, "Author(s):") %>
-    <%= text_field_tag(:author, params[:author]) %>
-    <%= label_tag(:keywords, "Keywords:") %>
-    <%= text_field_tag(:keywords, params[:keywords]) %>
-    <%= submit_tag("Search", class: 'btn btn-primary') %>
-    <%= link_to 'Clear', docs_path %>
-  <% end %>
-</div>
-<div class="panel panel-info ssl-table">
-  <div class="panel-heading">
+<div class="panel panel-info">
+   <div class="panel-heading">
     <div class="panel-title">
-    <% if not (params[:title] == '' and params[:author] == '' and params[:keywords] == '') %>SSL Filters <% else %>Social Science Library<% end %> 
-    <% if not params[:title].nil? and params[:title] != '' %>| Title: <%= params[:title] %> <% end %>
-    <% if not params[:author].nil? and params[:author] != ''%>| Author: <%= params[:author] %> <% end %>
-    <% if not params[:keywords].nil? and params[:keywords] != ''%>| Keywords: <%= params[:keywords] %> <% end %>
+      <div class="ssl-table-search">
+        <h4>Search By:</h4>
+        <%= form_tag("/doc", method: "get") do %>
+          <%= label_tag(:title, "Title:") %>
+          <%= text_field_tag(:title, params[:title])%>
+          <%= label_tag(:author, "Author(s):") %>
+          <%= text_field_tag(:author, params[:author]) %>
+          <%= label_tag(:keywords, "Keywords:") %>
+          <%= text_field_tag(:keywords, params[:keywords]) %>
+          <%= submit_tag("Search", class: 'btn btn-primary') %>
+        <% end %>
+      </div>
+      </div>
+  </div>
+</div>
+
+<%if not @authors%>
+  <div class="panel panel-info ssl-table">
+    <div class="panel-heading">
+      <div class="panel-title">
+      <div>Number of results: <%= @count %></div>
     </div>
   </div>
-  <div class="panel-body">
-    <table class="table" id="docs">
-      <thead>
-        <tr>
-          <th><a href=<%= docs_path({sort_by: :title}) %>>Title</a></th> 
-          <th><a href=<%= docs_path({sort_by: :author}) %>>Author(s)</a></th>
-          <th><a href=<%= docs_path({sort_by: :isbn}) %>>ISBN</a></th>
-        </tr>
-      </thead>
-      <tbody class="page">
-        <%= render partial: '/doc/doc_table_body' %>
-      </tbody>
-    </table>
-    <%= paginate @dpag %>
+    <div class="panel-body">
+      <table class="table" id="docs">
+        <thead>
+          <tr>
+            <th><a href=<%= docs_path({sort_by: :title}) %>>Title</a></th> 
+            <th><a href=<%= docs_path({sort_by: :author}) %>>Author(s)</a></th>
+            <th><a href=<%= docs_path({sort_by: :isbn}) %>>ISBN</a></th>
+          </tr>
+        </thead>
+        <tbody class="page">
+          <%= render partial: '/doc/doc_table_body' %>
+        </tbody>
+      </table>
+      <%= paginate @dpag %>
+    </div>
   </div>
-</div>
+
+<% else %>
+   <div class="panel panel-info ssl-table">
+      <div class="panel-heading">
+        <div class="panel-title">
+        <div>Authors By Name: 
+          <div id="alphaString">
+          </div>
+        </div>
+        </div>
+      </div>
+        <div class="panel-body">
+          <%= render partial: '/doc/doc_authortable_body' %>
+          <%= paginate @dpag %>
+        </div>
+    </div>
+<% end %>

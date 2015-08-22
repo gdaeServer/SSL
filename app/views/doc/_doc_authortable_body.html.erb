@@ -1,0 +1,22 @@
+<div class="accordion" id="authors">
+	<% @dpag.each do |d| %>
+  	<% doc = d %>
+  	<% id = "#" + doc[:auth_array][0][:id].to_s %>
+  		<div class="accordion-group">
+			<div class="accordion-heading">
+				<a class="accordion-toggle" data-toggle="collapse" data-target= <%=id%> >
+				<%= doc[:name] %>
+				</a>
+			</div>
+			<div class="accordion-body collapse" id= <%= doc[:auth_array][0][:id] %> >
+				<% doc[:auth_array].each do |x| %>
+					<div>
+						<a href=<%= doc_path(id: x[:id]) %>>
+							<%= x[:title] %>
+						</a>
+					</div>
+				<% end %>
+			</div>
+		</div>
+	<% end %>
+</div>

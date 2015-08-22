@@ -7,13 +7,39 @@ class DocController < ApplicationController
 	def index
 		#TEST PUSH PULL
 		#puts "Index, line " + "8"
-		@cursor = ssl.find(filters).sort(sorted_by)
-		@docs = []
-		start = params[:page].to_i * 20 
-		@cursor.skip(start).first(21).each do |d|
-			@docs << d
+		if params[:authors]
+			puts params[:authors]
+			@authors = true
+			reg = '^' + params[:authors]
+			regex = Regexp.new reg
+			@cursor = ssl.find({"pretty_name"=>regex}).sort("pretty_name")
+			puts "here"
+			auth_objs = get_authors(@cursor)
+			puts "there"
+
+			#@curr_auth = ""
+			@docs = []
+			start = params[:page].to_i * 20 
+			auth_objs.drop(start).first(21).each do |d|
+				@docs << d
+			end
+
+			@dpag = Kaminari.paginate_array(@docs).page(1).per(20)
+
+		else
+			@cursor = ssl.find(filters).sort(sorted_by)
+			@count = @cursor.count()
+		
+			puts @cursor.count()
+			puts "\n\n\n\n\n"
+			@docs = []
+			start = params[:page].to_i * 20 
+			@cursor.skip(start).first(21).each do |d|
+				@docs << d
+			end
+			@dpag = Kaminari.paginate_array(@docs).page(1).per(20)
 		end
-		@dpag = Kaminari.paginate_array(@docs).page(1).per(20)
+		
 	end
 
 	def show
@@ -147,6 +173,7 @@ class DocController < ApplicationController
   	end
 
 	private
+		
 		def ssl
 			#puts "private ssl, line " + "150"
 			mongo_uri = 'mongodb://ahedbe01:gdae2015@ds047591.mongolab.com:47591/heroku_app34131114' #ENV['SSL_MONGODB']
@@ -154,7 +181,7 @@ class DocController < ApplicationController
 			db_name = "heroku_app34131114"
 			client = MongoClient.from_uri(mongo_uri)
 			db = client.db(db_name)
-			db.collection('ssl').create_index("authors.surname")
+			db.collection('ssl').create_index("pretty_name")
 			col = db.collection('ssl')
 			col
 		end
@@ -194,7 +221,7 @@ class DocController < ApplicationController
 			if params.has_key?(:sort_by) and params[:sort_by].match(/^[[:alnum:]\ ]+$/)
 				if params[:sort_by] == "author"
 					puts "Here \n\n\n"
-					srt["authors.surname"] = -1
+					srt["pretty_name"] = 1
 				else
 					srt[params[:sort_by]] = 1
 				end
@@ -203,4 +230,30 @@ class DocController < ApplicationController
 			end
 			srt
 		end
+
+		def get_authors(cursor)
+			#auth_obj
+			# => auth_name
+			# => auth_array
+			# => => title
+			# => => URL
+			# => => ISBN
+			curr_auth = ""
+			auth_objs = []
+			auth_array = []
+			cursor.each do |d|
+				if not d['pretty_name'] == curr_auth
+					auth_obj = {:name => curr_auth, :auth_array => auth_array}
+					auth_objs.push(auth_obj)
+					curr_auth = d['pretty_name']
+					auth_array = []
+				end
+				entry = {:title => d['title'], :id => d['id'], :isbn => ['isbn']}
+				auth_array.push(entry)
+			end
+
+			auth_objs
+
+		end
+
 end

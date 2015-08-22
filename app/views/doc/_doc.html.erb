@@ -16,7 +16,7 @@
 					<tr>
 						<th>Abstract</th>
 						<% if doc['abstracts'].class == String
-									then abstracts = eval(doc['abstracts'].gsub(':', '=>').gsub('u\'', '\'').gsub('u"', '"')).each{|x| x.to_s }
+									then abstracts = eval(doc['abstracts'].gsub(':', '=>').gsub('u\'', '\'').gsub('u"', '"').gsub(' u', ' ')).each{|x| x.to_s }
 									else abstracts = doc['abstracts'] end %>
 						<td><% if not abstracts[0].nil? %>
 								<% s = abstracts[0]['abstract'].gsub('=>', ':') %>
