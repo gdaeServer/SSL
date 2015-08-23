@@ -8,22 +8,34 @@ class DocController < ApplicationController
 		#TEST PUSH PULL
 		#puts "Index, line " + "8"
 		if params[:authors]
-			puts params[:authors]
+			#puts params[:authors]
+			#@authors = true
+			#reg = '^' + params[:authors]
+			#regex = Regexp.new reg
+			#@cursor = ssl.find({"pretty_name"=>regex}).sort("pretty_name")
+			#puts "here"
+			#auth_objs = get_authors(@cursor)
+			#puts "there"
+
+			#@curr_auth = ""
+			#@docs = []
+			#start = params[:page].to_i * 20 
+			#auth_objs.drop(start).first(21).each do |d|
+			#	@docs << d
+			#end
+
+			#@dpag = Kaminari.paginate_array(@docs).page(1).per(20)
+			@curr_auth = ""
+			@count = 0
 			@authors = true
 			reg = '^' + params[:authors]
 			regex = Regexp.new reg
 			@cursor = ssl.find({"pretty_name"=>regex}).sort("pretty_name")
-			puts "here"
-			auth_objs = get_authors(@cursor)
-			puts "there"
-
-			#@curr_auth = ""
 			@docs = []
 			start = params[:page].to_i * 20 
-			auth_objs.drop(start).first(21).each do |d|
+			@cursor.skip(start).first(21).each do |d|
 				@docs << d
 			end
-
 			@dpag = Kaminari.paginate_array(@docs).page(1).per(20)
 
 		else

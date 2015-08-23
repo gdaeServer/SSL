@@ -9,23 +9,6 @@ $(document).ready ->
     itemSelector: "#docs tr.doc" # selector for all items you'll retrieve
 
 $(document).ready ->
-  $('#dataTable').dataTable
-    'processing': true
-    'serverSide': true
-    'ajax':
-      'url': '/get_data'
-      'data': (d) ->
-        d.myKey = 'myValue'
-        # d.custom = $('#myInput').val();
-        # etc
-        return
-    'columns': [
-      { 'data': 'title' }
-      { 'data': 'authors' }
-      { 'data': 'isbn' }
-    ]
-  return
-$(document).ready ->
   i = 65
   while i <= 90
     letter = String.fromCharCode(i)
