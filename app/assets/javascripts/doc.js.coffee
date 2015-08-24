@@ -8,13 +8,7 @@ $(document).ready ->
     nextSelector: "nav.pagination a[rel=next]" # selector for the NEXT link (to page 2)
     itemSelector: "#docs tr.doc" # selector for all items you'll retrieve
 
-$(document).ready ->
-  i = 65
-  while i <= 90
-    letter = String.fromCharCode(i)
-    $('#alphaString').append '<span><a href="?authors=' + letter + '&page=1">  ' + letter + '  </a></span>'
-    i++
-  return
+
 
 
 # Place all the behaviors and hooks related to the matching controller here.

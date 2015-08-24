@@ -47443,3 +47443,2052 @@ Processing by DocController#index as HTML
   Rendered doc/index.html.erb within layouts/application (24.0ms)
   Rendered layouts/_ssl_nav.html.erb (2.6ms)
 Completed 200 OK in 7189ms (Views: 109.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A&page=1" for 127.0.0.1 at 2015-08-23 14:17:40 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"1"}
+  Rendered doc/_doc_authortable_body.html.erb (8.7ms)
+  Rendered doc/index.html.erb within layouts/application (24.1ms)
+  Rendered layouts/_ssl_nav.html.erb (2.4ms)
+Completed 200 OK in 3573ms (Views: 45.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/doc.js?body=1" for 127.0.0.1 at 2015-08-23 14:17:45 -0700
+
+
+Started GET "/doc?authors=A&page=2" for 127.0.0.1 at 2015-08-23 14:18:09 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"2"}
+  Rendered doc/_doc_authortable_body.html.erb (13.0ms)
+  Rendered doc/index.html.erb within layouts/application (73.3ms)
+  Rendered layouts/_ssl_nav.html.erb (2.5ms)
+Completed 200 OK in 4365ms (Views: 90.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A&page=5" for 127.0.0.1 at 2015-08-23 14:18:13 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"5"}
+  Rendered doc/_doc_authortable_body.html.erb (7.8ms)
+  Rendered doc/index.html.erb within layouts/application (23.6ms)
+  Rendered layouts/_ssl_nav.html.erb (2.5ms)
+Completed 200 OK in 2852ms (Views: 44.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc" for 127.0.0.1 at 2015-08-23 14:24:36 -0700
+Processing by DocController#index as HTML
+  Rendered doc/_doc_table_body.html.erb (5.8ms)
+  Rendered doc/index.html.erb within layouts/application (25.2ms)
+  Rendered layouts/_ssl_nav.html.erb (3.6ms)
+Completed 200 OK in 34557ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc" for 127.0.0.1 at 2015-08-23 14:25:10 -0700
+Processing by DocController#index as HTML
+  Rendered doc/_doc_table_body.html.erb (5.9ms)
+  Rendered doc/index.html.erb within layouts/application (21.4ms)
+  Rendered layouts/_ssl_nav.html.erb (3.7ms)
+Completed 200 OK in 11447ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-23 14:25:23 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-23 14:25:23 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-23 14:25:23 -0700
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-08-23 14:25:23 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-08-23 14:25:23 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-08-23 14:25:23 -0700
+
+
+Started GET "/doc?sort_by=author" for 127.0.0.1 at 2015-08-23 14:25:26 -0700
+Processing by DocController#index as HTML
+  Parameters: {"sort_by"=>"author"}
+  Rendered doc/_doc_table_body.html.erb (6.1ms)
+  Rendered doc/index.html.erb within layouts/application (71.7ms)
+  Rendered layouts/_ssl_nav.html.erb (2.4ms)
+Completed 200 OK in 13921ms (Views: 88.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-08-23 14:25:40 -0700
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-08-23 14:25:42 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-08-23 14:25:42 -0700
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-08-23 14:25:45 -0700
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-08-23 14:25:45 -0700
+
+
+Started GET "/doc?authors=A&page=6" for 127.0.0.1 at 2015-08-23 14:25:47 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"6"}
+  Rendered doc/_doc_authortable_body.html.erb (6.0ms)
+  Rendered doc/index.html.erb within layouts/application (19.6ms)
+  Rendered layouts/_ssl_nav.html.erb (2.4ms)
+Completed 200 OK in 9495ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A&page=3" for 127.0.0.1 at 2015-08-23 14:25:56 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"3"}
+  Rendered doc/_doc_authortable_body.html.erb (6.2ms)
+  Rendered doc/index.html.erb within layouts/application (21.9ms)
+  Rendered layouts/_ssl_nav.html.erb (2.6ms)
+Completed 200 OK in 17438ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-08-23 14:26:15 -0700
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-08-23 14:26:15 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-08-23 14:26:17 -0700
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-08-23 14:26:17 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-08-23 14:26:20 -0700
+
+
+Started GET "/assets/jquery.infinitescroll.js?body=1" for 127.0.0.1 at 2015-08-23 14:26:20 -0700
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2015-08-23 14:26:22 -0700
+
+
+Started GET "/assets/doc.js?body=1" for 127.0.0.1 at 2015-08-23 14:26:22 -0700
+
+
+Started GET "/assets/ssl.js?body=1" for 127.0.0.1 at 2015-08-23 14:26:25 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-23 14:26:25 -0700
+
+
+Started GET "/doc?authors=A&page=1" for 127.0.0.1 at 2015-08-23 21:42:08 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"1"}
+  Rendered doc/_doc_authortable_body.html.erb (9.6ms)
+  Rendered doc/index.html.erb within layouts/application (24.6ms)
+  Rendered layouts/_ssl_nav.html.erb (4.0ms)
+Completed 200 OK in 3177ms (Views: 46.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A&page=1" for 127.0.0.1 at 2015-08-23 21:42:11 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"1"}
+  Rendered doc/_doc_authortable_body.html.erb (9.2ms)
+  Rendered doc/index.html.erb within layouts/application (25.8ms)
+  Rendered layouts/_ssl_nav.html.erb (2.6ms)
+Completed 200 OK in 2725ms (Views: 42.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/doc.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:14 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:14 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:14 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:14 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:14 -0700
+
+
+Started GET "/doc?authors=A&page=1" for 127.0.0.1 at 2015-08-23 21:42:14 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"1"}
+  Rendered doc/_doc_authortable_body.html.erb (30.0ms)
+  Rendered doc/index.html.erb within layouts/application (58.5ms)
+  Rendered layouts/_ssl_nav.html.erb (5.1ms)
+Completed 200 OK in 2475ms (Views: 167.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A&page=4" for 127.0.0.1 at 2015-08-23 21:42:17 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"4"}
+  Rendered doc/_doc_authortable_body.html.erb (6.6ms)
+  Rendered doc/index.html.erb within layouts/application (70.3ms)
+  Rendered layouts/_ssl_nav.html.erb (3.4ms)
+Completed 200 OK in 2785ms (Views: 92.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A&page=7" for 127.0.0.1 at 2015-08-23 21:42:20 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"7"}
+  Rendered doc/_doc_authortable_body.html.erb (106.9ms)
+  Rendered doc/index.html.erb within layouts/application (136.5ms)
+  Rendered layouts/_ssl_nav.html.erb (5.2ms)
+Completed 200 OK in 2380ms (Views: 175.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A&page=2" for 127.0.0.1 at 2015-08-23 21:42:22 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"2"}
+  Rendered doc/_doc_authortable_body.html.erb (8.6ms)
+  Rendered doc/index.html.erb within layouts/application (26.3ms)
+  Rendered layouts/_ssl_nav.html.erb (4.4ms)
+Completed 200 OK in 2746ms (Views: 52.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A&page=2" for 127.0.0.1 at 2015-08-23 21:42:25 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"2"}
+  Rendered doc/_doc_authortable_body.html.erb (7.6ms)
+  Rendered doc/index.html.erb within layouts/application (22.7ms)
+  Rendered layouts/_ssl_nav.html.erb (2.6ms)
+Completed 200 OK in 1902ms (Views: 39.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-23 21:42:27 -0700
+
+
+Started GET "/assets/doc.css?body=1" for 127.0.0.1 at 2015-08-23 21:42:27 -0700
+
+
+Started GET "/assets/ssl.css?body=1" for 127.0.0.1 at 2015-08-23 21:42:27 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:27 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:27 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:27 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:29 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:29 -0700
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:29 -0700
+
+
+Started GET "/doc?authors=A&page=1" for 127.0.0.1 at 2015-08-23 21:42:29 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"1"}
+  Rendered doc/_doc_authortable_body.html.erb (6.1ms)
+  Rendered doc/index.html.erb within layouts/application (19.1ms)
+  Rendered layouts/_ssl_nav.html.erb (2.6ms)
+Completed 200 OK in 2360ms (Views: 83.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:31 -0700
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:31 -0700
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:32 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:32 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:32 -0700
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:32 -0700
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:32 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:32 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:32 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-23 21:42:32 -0700
+
+
+Started GET "/assets/doc.css?body=1" for 127.0.0.1 at 2015-08-23 21:42:32 -0700
+
+
+Started GET "/assets/ssl.css?body=1" for 127.0.0.1 at 2015-08-23 21:42:32 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:32 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:34 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:34 -0700
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:34 -0700
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:34 -0700
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:34 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:34 -0700
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:36 -0700
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:36 -0700
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:37 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:37 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:37 -0700
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:37 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:39 -0700
+
+
+Started GET "/assets/doc.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:39 -0700
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:39 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:39 -0700
+
+
+Started GET "/assets/ssl.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:39 -0700
+
+
+Started GET "/assets/jquery.infinitescroll.js?body=1" for 127.0.0.1 at 2015-08-23 21:42:39 -0700
+
+
+Started GET "/doc?authors=A&page=2" for 127.0.0.1 at 2015-08-23 21:42:43 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"2"}
+  Rendered doc/_doc_authortable_body.html.erb (9.0ms)
+  Rendered doc/index.html.erb within layouts/application (29.8ms)
+  Rendered layouts/_ssl_nav.html.erb (3.2ms)
+Completed 200 OK in 1846ms (Views: 121.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-23 21:54:46 -0700
+Processing by SslController#index as HTML
+  Rendered ssl/_ssl_search.html.erb (1.7ms)
+  Rendered ssl/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_ssl_nav.html.erb (2.6ms)
+Completed 200 OK in 443ms (Views: 442.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A&page=1" for 127.0.0.1 at 2015-08-23 21:54:51 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"1"}
+  Rendered doc/_doc_authortable_body.html.erb (7.8ms)
+  Rendered doc/index.html.erb within layouts/application (72.6ms)
+  Rendered layouts/_ssl_nav.html.erb (2.7ms)
+Completed 200 OK in 2796ms (Views: 90.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=B&page=1" for 127.0.0.1 at 2015-08-23 21:55:02 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"B", "page"=>"1"}
+  Rendered doc/_doc_authortable_body.html.erb (5.9ms)
+  Rendered doc/index.html.erb within layouts/application (22.1ms)
+  Rendered layouts/_ssl_nav.html.erb (2.5ms)
+Completed 200 OK in 2954ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=B&page=2" for 127.0.0.1 at 2015-08-23 21:55:10 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"B", "page"=>"2"}
+  Rendered doc/_doc_authortable_body.html.erb (13.6ms)
+  Rendered doc/index.html.erb within layouts/application (46.5ms)
+  Rendered layouts/_ssl_nav.html.erb (6.5ms)
+Completed 200 OK in 2267ms (Views: 75.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A&page=3" for 127.0.0.1 at 2015-08-23 21:55:12 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"3"}
+  Rendered doc/_doc_authortable_body.html.erb (8.3ms)
+  Rendered doc/index.html.erb within layouts/application (26.9ms)
+  Rendered layouts/_ssl_nav.html.erb (3.6ms)
+Completed 200 OK in 2193ms (Views: 54.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A&page=2" for 127.0.0.1 at 2015-08-23 21:55:14 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"2"}
+  Rendered doc/_doc_authortable_body.html.erb (6.1ms)
+  Rendered doc/index.html.erb within layouts/application (19.2ms)
+  Rendered layouts/_ssl_nav.html.erb (2.7ms)
+Completed 200 OK in 1961ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A&page=4" for 127.0.0.1 at 2015-08-23 21:55:21 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"4"}
+  Rendered doc/_doc_authortable_body.html.erb (7.7ms)
+  Rendered doc/index.html.erb within layouts/application (112.3ms)
+  Rendered layouts/_ssl_nav.html.erb (3.5ms)
+Completed 200 OK in 2693ms (Views: 140.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A&page=3" for 127.0.0.1 at 2015-08-23 21:55:23 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"3"}
+  Rendered doc/_doc_authortable_body.html.erb (56.9ms)
+  Rendered doc/index.html.erb within layouts/application (73.7ms)
+  Rendered layouts/_ssl_nav.html.erb (2.5ms)
+Completed 200 OK in 2496ms (Views: 94.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=B&page=3" for 127.0.0.1 at 2015-08-23 21:55:26 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"B", "page"=>"3"}
+  Rendered doc/_doc_authortable_body.html.erb (6.2ms)
+  Rendered doc/index.html.erb within layouts/application (22.6ms)
+  Rendered layouts/_ssl_nav.html.erb (2.4ms)
+Completed 200 OK in 2962ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=B&page=1" for 127.0.0.1 at 2015-08-23 21:56:13 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"B", "page"=>"1"}
+  Rendered doc/_doc_authortable_body.html.erb (6.1ms)
+  Rendered doc/index.html.erb within layouts/application (27.4ms)
+  Rendered layouts/_ssl_nav.html.erb (2.3ms)
+Completed 200 OK in 2847ms (Views: 46.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-23 21:56:17 -0700
+
+
+Started GET "/assets/doc.css?body=1" for 127.0.0.1 at 2015-08-23 21:56:17 -0700
+
+
+Started GET "/assets/ssl.css?body=1" for 127.0.0.1 at 2015-08-23 21:56:17 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-23 21:56:17 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-23 21:56:17 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-23 21:56:17 -0700
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-08-23 21:56:19 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-08-23 21:56:19 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-08-23 21:56:19 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-08-23 21:56:19 -0700
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-08-23 21:56:19 -0700
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-08-23 21:56:19 -0700
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-08-23 21:56:21 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-08-23 21:56:21 -0700
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-08-23 21:56:21 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-08-23 21:56:21 -0700
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-08-23 21:56:21 -0700
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-08-23 21:56:21 -0700
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2015-08-23 21:56:24 -0700
+
+
+Started GET "/assets/jquery.infinitescroll.js?body=1" for 127.0.0.1 at 2015-08-23 21:56:24 -0700
+
+
+Started GET "/assets/doc.js?body=1" for 127.0.0.1 at 2015-08-23 21:56:24 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-23 21:56:24 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-08-23 21:56:24 -0700
+
+
+Started GET "/assets/ssl.js?body=1" for 127.0.0.1 at 2015-08-23 21:56:24 -0700
+
+
+Started GET "/doc?authors=B&page=1" for 127.0.0.1 at 2015-08-23 21:57:55 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"B", "page"=>"1"}
+  Rendered doc/_doc_authortable_body.html.erb (9.7ms)
+  Rendered doc/index.html.erb within layouts/application (34.8ms)
+  Rendered layouts/_ssl_nav.html.erb (4.1ms)
+Completed 200 OK in 2786ms (Views: 57.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-23 21:57:59 -0700
+
+
+Started GET "/assets/ssl.css?body=1" for 127.0.0.1 at 2015-08-23 21:57:59 -0700
+
+
+Started GET "/assets/doc.css?body=1" for 127.0.0.1 at 2015-08-23 21:57:59 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-23 21:57:59 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-23 21:57:59 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-23 21:57:59 -0700
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-08-23 21:58:01 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-08-23 21:58:01 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-08-23 21:58:02 -0700
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-08-23 21:58:02 -0700
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-08-23 21:58:02 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-08-23 21:58:02 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-08-23 21:58:04 -0700
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-08-23 21:58:04 -0700
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-08-23 21:58:04 -0700
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-08-23 21:58:04 -0700
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-08-23 21:58:04 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-08-23 21:58:04 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-08-23 21:58:06 -0700
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2015-08-23 21:58:07 -0700
+
+
+Started GET "/assets/doc.js?body=1" for 127.0.0.1 at 2015-08-23 21:58:07 -0700
+
+
+Started GET "/assets/ssl.js?body=1" for 127.0.0.1 at 2015-08-23 21:58:07 -0700
+
+
+Started GET "/assets/jquery.infinitescroll.js?body=1" for 127.0.0.1 at 2015-08-23 21:58:07 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-23 21:58:07 -0700
+
+
+Started GET "/assets/ssl.js?body=1" for 127.0.0.1 at 2015-08-23 22:00:14 -0700
+
+
+Started GET "/doc?authors=B&page=1" for 127.0.0.1 at 2015-08-23 22:00:17 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"B", "page"=>"1"}
+  Rendered doc/_doc_authortable_body.html.erb (69.2ms)
+  Rendered doc/index.html.erb within layouts/application (88.8ms)
+  Rendered layouts/_ssl_nav.html.erb (4.0ms)
+Completed 200 OK in 2414ms (Views: 108.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-23 22:00:22 -0700
+
+
+Started GET "/assets/doc.css?body=1" for 127.0.0.1 at 2015-08-23 22:00:22 -0700
+
+
+Started GET "/assets/ssl.css?body=1" for 127.0.0.1 at 2015-08-23 22:00:22 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-23 22:00:22 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-23 22:00:22 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-23 22:00:22 -0700
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-08-23 22:00:22 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-08-23 22:00:22 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-08-23 22:00:22 -0700
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-08-23 22:00:22 -0700
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-08-23 22:00:22 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-08-23 22:00:22 -0700
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-08-23 22:00:24 -0700
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-08-23 22:00:24 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-08-23 22:00:24 -0700
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-08-23 22:00:24 -0700
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-08-23 22:00:24 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-08-23 22:00:24 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-08-23 22:00:24 -0700
+
+
+Started GET "/assets/jquery.infinitescroll.js?body=1" for 127.0.0.1 at 2015-08-23 22:00:26 -0700
+
+
+Started GET "/assets/ssl.js?body=1" for 127.0.0.1 at 2015-08-23 22:00:26 -0700
+
+
+Started GET "/assets/doc.js?body=1" for 127.0.0.1 at 2015-08-23 22:00:26 -0700
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2015-08-23 22:00:26 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-23 22:00:26 -0700
+
+
+Started GET "/doc?authors=B&page=1" for 127.0.0.1 at 2015-08-23 22:03:42 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"B", "page"=>"1"}
+  Rendered doc/_doc_authortable_body.html.erb (5.9ms)
+  Rendered doc/index.html.erb within layouts/application (23.7ms)
+  Rendered layouts/_ssl_nav.html.erb (3.3ms)
+Completed 200 OK in 2815ms (Views: 119.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-23 22:03:47 -0700
+
+
+Started GET "/assets/doc.css?body=1" for 127.0.0.1 at 2015-08-23 22:03:47 -0700
+
+
+Started GET "/assets/ssl.css?body=1" for 127.0.0.1 at 2015-08-23 22:03:47 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-23 22:03:47 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-23 22:03:47 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-23 22:03:47 -0700
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-08-23 22:03:50 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-08-23 22:03:50 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-08-23 22:03:50 -0700
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-08-23 22:03:51 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-08-23 22:03:51 -0700
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-08-23 22:03:51 -0700
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-08-23 22:03:54 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-08-23 22:03:54 -0700
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-08-23 22:03:54 -0700
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-08-23 22:03:56 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-08-23 22:03:56 -0700
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-08-23 22:03:56 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-08-23 22:03:59 -0700
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2015-08-23 22:03:59 -0700
+
+
+Started GET "/assets/jquery.infinitescroll.js?body=1" for 127.0.0.1 at 2015-08-23 22:03:59 -0700
+
+
+Started GET "/assets/doc.js?body=1" for 127.0.0.1 at 2015-08-23 22:04:01 -0700
+
+
+Started GET "/assets/ssl.js?body=1" for 127.0.0.1 at 2015-08-23 22:04:01 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-23 22:04:01 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-23 22:09:15 -0700
+
+
+Started GET "/doc?authors=B&page=1" for 127.0.0.1 at 2015-08-23 22:09:17 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"B", "page"=>"1"}
+  Rendered doc/_doc_authortable_body.html.erb (5.9ms)
+  Rendered doc/index.html.erb within layouts/application (26.0ms)
+  Rendered layouts/_ssl_nav.html.erb (2.4ms)
+Completed 200 OK in 2682ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-23 22:09:22 -0700
+
+
+Started GET "/assets/doc.css?body=1" for 127.0.0.1 at 2015-08-23 22:09:22 -0700
+
+
+Started GET "/assets/ssl.css?body=1" for 127.0.0.1 at 2015-08-23 22:09:22 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-23 22:09:22 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-23 22:09:22 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-23 22:09:22 -0700
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-08-23 22:09:24 -0700
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-08-23 22:09:24 -0700
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-08-23 22:09:24 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-08-23 22:09:24 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-08-23 22:09:24 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-08-23 22:09:24 -0700
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-08-23 22:09:26 -0700
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-08-23 22:09:26 -0700
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-08-23 22:09:26 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-08-23 22:09:26 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-08-23 22:09:26 -0700
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-08-23 22:09:26 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-08-23 22:09:29 -0700
+
+
+Started GET "/assets/ssl.js?body=1" for 127.0.0.1 at 2015-08-23 22:09:29 -0700
+
+
+Started GET "/assets/jquery.infinitescroll.js?body=1" for 127.0.0.1 at 2015-08-23 22:09:29 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-23 22:09:29 -0700
+
+
+Started GET "/assets/doc.js?body=1" for 127.0.0.1 at 2015-08-23 22:09:29 -0700
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2015-08-23 22:09:29 -0700
+
+
+Started GET "/doc?authors=E&page=1" for 127.0.0.1 at 2015-08-23 22:09:32 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"E", "page"=>"1"}
+  Rendered doc/_doc_authortable_body.html.erb (9.1ms)
+  Rendered doc/index.html.erb within layouts/application (29.4ms)
+  Rendered layouts/_ssl_nav.html.erb (2.6ms)
+Completed 200 OK in 2433ms (Views: 50.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=B&page=2" for 127.0.0.1 at 2015-08-23 22:09:37 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"B", "page"=>"2"}
+  Rendered doc/_doc_authortable_body.html.erb (59.5ms)
+  Rendered doc/index.html.erb within layouts/application (94.3ms)
+  Rendered layouts/_ssl_nav.html.erb (4.9ms)
+Completed 200 OK in 1924ms (Views: 200.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=D&page=1" for 127.0.0.1 at 2015-08-23 22:09:40 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"D", "page"=>"1"}
+  Rendered doc/_doc_authortable_body.html.erb (6.9ms)
+  Rendered doc/index.html.erb within layouts/application (19.6ms)
+  Rendered layouts/_ssl_nav.html.erb (2.4ms)
+Completed 200 OK in 3077ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A&page=1" for 127.0.0.1 at 2015-08-23 22:09:51 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"1"}
+  Rendered doc/_doc_authortable_body.html.erb (7.2ms)
+  Rendered doc/index.html.erb within layouts/application (20.1ms)
+  Rendered layouts/_ssl_nav.html.erb (2.4ms)
+Completed 200 OK in 2378ms (Views: 91.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=B&page=1" for 127.0.0.1 at 2015-08-23 22:09:57 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"B", "page"=>"1"}
+  Rendered doc/_doc_authortable_body.html.erb (7.0ms)
+  Rendered doc/index.html.erb within layouts/application (81.1ms)
+  Rendered layouts/_ssl_nav.html.erb (2.7ms)
+Completed 200 OK in 1937ms (Views: 98.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=C&page=1" for 127.0.0.1 at 2015-08-23 22:10:01 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"C", "page"=>"1"}
+  Rendered doc/_doc_authortable_body.html.erb (60.8ms)
+  Rendered doc/index.html.erb within layouts/application (75.4ms)
+  Rendered layouts/_ssl_nav.html.erb (2.5ms)
+Completed 200 OK in 3439ms (Views: 90.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=C&page=2" for 127.0.0.1 at 2015-08-23 22:10:11 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"C", "page"=>"2"}
+  Rendered doc/_doc_authortable_body.html.erb (6.6ms)
+  Rendered doc/index.html.erb within layouts/application (19.8ms)
+  Rendered layouts/_ssl_nav.html.erb (2.6ms)
+Completed 200 OK in 2083ms (Views: 96.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=B&page=3" for 127.0.0.1 at 2015-08-23 22:10:13 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"B", "page"=>"3"}
+  Rendered doc/_doc_authortable_body.html.erb (7.1ms)
+  Rendered doc/index.html.erb within layouts/application (25.0ms)
+  Rendered layouts/_ssl_nav.html.erb (4.0ms)
+Completed 200 OK in 2263ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=E&page=2" for 127.0.0.1 at 2015-08-23 22:10:15 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"E", "page"=>"2"}
+  Rendered doc/_doc_authortable_body.html.erb (9.2ms)
+  Rendered doc/index.html.erb within layouts/application (28.0ms)
+  Rendered layouts/_ssl_nav.html.erb (3.7ms)
+Completed 200 OK in 2284ms (Views: 50.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=D&page=2" for 127.0.0.1 at 2015-08-23 22:10:18 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"D", "page"=>"2"}
+  Rendered doc/_doc_authortable_body.html.erb (5.8ms)
+  Rendered doc/index.html.erb within layouts/application (22.8ms)
+  Rendered layouts/_ssl_nav.html.erb (2.5ms)
+Completed 200 OK in 2028ms (Views: 39.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A&page=2" for 127.0.0.1 at 2015-08-23 22:10:20 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"2"}
+  Rendered doc/_doc_authortable_body.html.erb (7.9ms)
+  Rendered doc/index.html.erb within layouts/application (35.3ms)
+  Rendered layouts/_ssl_nav.html.erb (2.7ms)
+Completed 200 OK in 1865ms (Views: 132.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=B&page=2" for 127.0.0.1 at 2015-08-23 22:10:22 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"B", "page"=>"2"}
+  Rendered doc/_doc_authortable_body.html.erb (66.5ms)
+  Rendered doc/index.html.erb within layouts/application (85.4ms)
+  Rendered layouts/_ssl_nav.html.erb (2.4ms)
+Completed 200 OK in 1905ms (Views: 103.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=C&page=1" for 127.0.0.1 at 2015-08-23 22:10:48 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"C", "page"=>"1"}
+  Rendered doc/_doc_authortable_body.html.erb (5.9ms)
+  Rendered doc/index.html.erb within layouts/application (28.0ms)
+  Rendered layouts/_ssl_nav.html.erb (2.3ms)
+Completed 200 OK in 1997ms (Views: 100.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-23 22:10:52 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-23 22:10:52 -0700
+
+
+Started GET "/assets/doc.css?body=1" for 127.0.0.1 at 2015-08-23 22:10:52 -0700
+
+
+Started GET "/assets/ssl.css?body=1" for 127.0.0.1 at 2015-08-23 22:10:52 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-23 22:10:52 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-23 22:10:52 -0700
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-08-23 22:10:54 -0700
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-08-23 22:10:54 -0700
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-08-23 22:10:54 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-08-23 22:10:54 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-08-23 22:10:54 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-08-23 22:10:54 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-08-23 22:10:56 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-08-23 22:10:56 -0700
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-08-23 22:10:57 -0700
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-08-23 22:10:57 -0700
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-08-23 22:10:57 -0700
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-08-23 22:10:57 -0700
+
+
+Started GET "/assets/ssl.js?body=1" for 127.0.0.1 at 2015-08-23 22:10:59 -0700
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2015-08-23 22:10:59 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-23 22:10:59 -0700
+
+
+Started GET "/assets/jquery.infinitescroll.js?body=1" for 127.0.0.1 at 2015-08-23 22:10:59 -0700
+
+
+Started GET "/assets/doc.js?body=1" for 127.0.0.1 at 2015-08-23 22:10:59 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-08-23 22:10:59 -0700
+
+
+Started GET "/doc?authors=A" for 127.0.0.1 at 2015-08-23 22:11:04 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A"}
+  Rendered doc/_doc_authortable_body.html.erb (6.0ms)
+  Rendered doc/index.html.erb within layouts/application (28.8ms)
+  Rendered layouts/_ssl_nav.html.erb (2.7ms)
+Completed 200 OK in 1796ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A&page=2" for 127.0.0.1 at 2015-08-23 22:11:09 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"2"}
+  Rendered doc/_doc_authortable_body.html.erb (7.8ms)
+  Rendered doc/index.html.erb within layouts/application (39.4ms)
+  Rendered layouts/_ssl_nav.html.erb (2.8ms)
+Completed 200 OK in 2557ms (Views: 215.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=C&page=2" for 127.0.0.1 at 2015-08-23 22:11:12 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"C", "page"=>"2"}
+  Rendered doc/_doc_authortable_body.html.erb (5.6ms)
+  Rendered doc/index.html.erb within layouts/application (22.4ms)
+  Rendered layouts/_ssl_nav.html.erb (2.8ms)
+Completed 200 OK in 2571ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A" for 127.0.0.1 at 2015-08-23 22:11:28 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A"}
+  Rendered doc/_doc_authortable_body.html.erb (6.5ms)
+  Rendered doc/index.html.erb within layouts/application (30.2ms)
+  Rendered layouts/_ssl_nav.html.erb (68.0ms)
+Completed 200 OK in 1989ms (Views: 115.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-23 22:11:32 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-23 22:11:32 -0700
+
+
+Started GET "/assets/doc.css?body=1" for 127.0.0.1 at 2015-08-23 22:11:32 -0700
+
+
+Started GET "/assets/ssl.css?body=1" for 127.0.0.1 at 2015-08-23 22:11:32 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-23 22:11:32 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-23 22:11:32 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-08-23 22:11:34 -0700
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-08-23 22:11:34 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-08-23 22:11:34 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-08-23 22:11:34 -0700
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-08-23 22:11:34 -0700
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-08-23 22:11:34 -0700
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-08-23 22:11:36 -0700
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-08-23 22:11:36 -0700
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-08-23 22:11:36 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-08-23 22:11:36 -0700
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-08-23 22:11:36 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-08-23 22:11:36 -0700
+
+
+Started GET "/assets/doc.js?body=1" for 127.0.0.1 at 2015-08-23 22:11:39 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-08-23 22:11:39 -0700
+
+
+Started GET "/assets/jquery.infinitescroll.js?body=1" for 127.0.0.1 at 2015-08-23 22:11:39 -0700
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2015-08-23 22:11:39 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-23 22:11:39 -0700
+
+
+Started GET "/assets/ssl.js?body=1" for 127.0.0.1 at 2015-08-23 22:11:39 -0700
+
+
+Started GET "/doc?authors=A&page=2" for 127.0.0.1 at 2015-08-23 22:11:45 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"2"}
+  Rendered doc/_doc_authortable_body.html.erb (5.9ms)
+  Rendered doc/index.html.erb within layouts/application (24.9ms)
+  Rendered layouts/_ssl_nav.html.erb (2.4ms)
+Completed 200 OK in 2087ms (Views: 102.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A&page=3" for 127.0.0.1 at 2015-08-23 22:11:53 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"3"}
+  Rendered doc/_doc_authortable_body.html.erb (6.5ms)
+  Rendered doc/index.html.erb within layouts/application (82.2ms)
+  Rendered layouts/_ssl_nav.html.erb (2.3ms)
+Completed 200 OK in 2643ms (Views: 101.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=C" for 127.0.0.1 at 2015-08-23 22:12:06 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"C"}
+  Rendered doc/_doc_authortable_body.html.erb (5.7ms)
+  Rendered doc/index.html.erb within layouts/application (84.6ms)
+  Rendered layouts/_ssl_nav.html.erb (2.3ms)
+Completed 200 OK in 2075ms (Views: 104.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc/FETCH-LOGICAL-g2069-f0c84d4d320d6349a074e87db74eca0a41ecfbfa3cb54073f2b8e9299c2426073" for 127.0.0.1 at 2015-08-23 22:12:14 -0700
+Processing by DocController#show as HTML
+  Parameters: {"id"=>"FETCH-LOGICAL-g2069-f0c84d4d320d6349a074e87db74eca0a41ecfbfa3cb54073f2b8e9299c2426073"}
+  Rendered doc/_doc.html.erb (5.0ms)
+  Rendered doc/show.html.erb within layouts/application (10.3ms)
+  Rendered layouts/_ssl_nav.html.erb (65.3ms)
+Completed 200 OK in 795ms (Views: 94.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=C" for 127.0.0.1 at 2015-08-23 22:12:26 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"C"}
+  Rendered doc/_doc_authortable_body.html.erb (10.2ms)
+  Rendered doc/index.html.erb within layouts/application (109.5ms)
+  Rendered layouts/_ssl_nav.html.erb (2.3ms)
+Completed 200 OK in 2003ms (Views: 125.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=C" for 127.0.0.1 at 2015-08-23 22:12:28 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"C"}
+  Rendered doc/_doc_authortable_body.html.erb (81.8ms)
+  Rendered doc/index.html.erb within layouts/application (96.9ms)
+  Rendered layouts/_ssl_nav.html.erb (2.5ms)
+Completed 200 OK in 2210ms (Views: 113.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=C&page=2" for 127.0.0.1 at 2015-08-23 22:12:31 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"C", "page"=>"2"}
+  Rendered doc/_doc_authortable_body.html.erb (7.5ms)
+  Rendered doc/index.html.erb within layouts/application (25.6ms)
+  Rendered layouts/_ssl_nav.html.erb (4.2ms)
+Completed 200 OK in 2048ms (Views: 149.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A&page=4" for 127.0.0.1 at 2015-08-23 22:12:33 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"4"}
+  Rendered doc/_doc_authortable_body.html.erb (8.4ms)
+  Rendered doc/index.html.erb within layouts/application (32.7ms)
+  Rendered layouts/_ssl_nav.html.erb (3.8ms)
+Completed 200 OK in 1796ms (Views: 61.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-23 22:12:52 -0700
+Processing by SslController#index as HTML
+  Rendered ssl/_ssl_search.html.erb (75.2ms)
+  Rendered ssl/index.html.erb within layouts/application (80.0ms)
+  Rendered layouts/_ssl_nav.html.erb (4.1ms)
+Completed 200 OK in 108ms (Views: 107.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A&page=1" for 127.0.0.1 at 2015-08-23 22:13:07 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"1"}
+  Rendered doc/_doc_authortable_body.html.erb (62.4ms)
+  Rendered doc/index.html.erb within layouts/application (87.2ms)
+  Rendered layouts/_ssl_nav.html.erb (2.3ms)
+Completed 200 OK in 2181ms (Views: 103.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A&page=2" for 127.0.0.1 at 2015-08-23 22:13:20 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"2"}
+  Rendered doc/_doc_authortable_body.html.erb (10.4ms)
+  Rendered doc/index.html.erb within layouts/application (35.9ms)
+  Rendered layouts/_ssl_nav.html.erb (2.7ms)
+Completed 200 OK in 2458ms (Views: 159.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A&page=5" for 127.0.0.1 at 2015-08-23 22:13:23 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"5"}
+  Rendered doc/_doc_authortable_body.html.erb (11.8ms)
+  Rendered doc/index.html.erb within layouts/application (38.4ms)
+  Rendered layouts/_ssl_nav.html.erb (4.2ms)
+Completed 200 OK in 2088ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=C&page=3" for 127.0.0.1 at 2015-08-23 22:13:25 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"C", "page"=>"3"}
+  Rendered doc/_doc_authortable_body.html.erb (8.7ms)
+  Rendered doc/index.html.erb within layouts/application (24.3ms)
+  Rendered layouts/_ssl_nav.html.erb (2.4ms)
+Completed 200 OK in 2651ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=C&page=2" for 127.0.0.1 at 2015-08-23 22:13:27 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"C", "page"=>"2"}
+  Rendered doc/_doc_authortable_body.html.erb (12.5ms)
+  Rendered doc/index.html.erb within layouts/application (42.8ms)
+  Rendered layouts/_ssl_nav.html.erb (3.4ms)
+Completed 200 OK in 2627ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=C&page=2" for 127.0.0.1 at 2015-08-23 22:13:30 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"C", "page"=>"2"}
+  Rendered doc/_doc_authortable_body.html.erb (6.2ms)
+  Rendered doc/index.html.erb within layouts/application (25.1ms)
+  Rendered layouts/_ssl_nav.html.erb (2.5ms)
+Completed 200 OK in 2384ms (Views: 130.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=B" for 127.0.0.1 at 2015-08-23 22:13:32 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"B"}
+  Rendered doc/_doc_authortable_body.html.erb (8.8ms)
+  Rendered doc/index.html.erb within layouts/application (111.1ms)
+  Rendered layouts/_ssl_nav.html.erb (3.8ms)
+Completed 200 OK in 2870ms (Views: 135.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/doc.js?body=1" for 127.0.0.1 at 2015-08-23 22:13:36 -0700
+
+
+Started GET "/doc?authors=B&page=2" for 127.0.0.1 at 2015-08-23 22:13:40 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"B", "page"=>"2"}
+  Rendered doc/_doc_authortable_body.html.erb (9.4ms)
+  Rendered doc/index.html.erb within layouts/application (27.2ms)
+  Rendered layouts/_ssl_nav.html.erb (2.8ms)
+Completed 200 OK in 2936ms (Views: 47.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A&page=6" for 127.0.0.1 at 2015-08-23 22:13:43 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"6"}
+  Rendered doc/_doc_authortable_body.html.erb (6.3ms)
+  Rendered doc/index.html.erb within layouts/application (21.8ms)
+  Rendered layouts/_ssl_nav.html.erb (2.6ms)
+Completed 200 OK in 1745ms (Views: 39.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=C&page=4" for 127.0.0.1 at 2015-08-23 22:13:45 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"C", "page"=>"4"}
+  Rendered doc/_doc_authortable_body.html.erb (12.8ms)
+  Rendered doc/index.html.erb within layouts/application (42.5ms)
+  Rendered layouts/_ssl_nav.html.erb (4.8ms)
+Completed 200 OK in 1897ms (Views: 76.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=C&page=3" for 127.0.0.1 at 2015-08-23 22:13:46 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"C", "page"=>"3"}
+  Rendered doc/_doc_authortable_body.html.erb (8.7ms)
+  Rendered doc/index.html.erb within layouts/application (24.0ms)
+  Rendered layouts/_ssl_nav.html.erb (3.4ms)
+Completed 200 OK in 1793ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=C&page=3" for 127.0.0.1 at 2015-08-23 22:13:48 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"C", "page"=>"3"}
+  Rendered doc/_doc_authortable_body.html.erb (5.9ms)
+  Rendered doc/index.html.erb within layouts/application (21.0ms)
+  Rendered layouts/_ssl_nav.html.erb (68.2ms)
+Completed 200 OK in 3021ms (Views: 106.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A&page=3" for 127.0.0.1 at 2015-08-23 22:13:51 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"3"}
+  Rendered doc/_doc_authortable_body.html.erb (11.0ms)
+  Rendered doc/index.html.erb within layouts/application (104.5ms)
+  Rendered layouts/_ssl_nav.html.erb (2.5ms)
+Completed 200 OK in 2264ms (Views: 125.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc/FETCH-proquest_dll_6563755613" for 127.0.0.1 at 2015-08-23 22:19:12 -0700
+Processing by DocController#show as HTML
+  Parameters: {"id"=>"FETCH-proquest_dll_6563755613"}
+  Rendered doc/_doc.html.erb (1.9ms)
+  Rendered doc/show.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_ssl_nav.html.erb (2.2ms)
+Completed 200 OK in 1356ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/doc.js?body=1" for 127.0.0.1 at 2015-08-23 22:19:14 -0700
+
+
+Started GET "/doc?authors=A&page=7" for 127.0.0.1 at 2015-08-23 22:19:14 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"7"}
+  Rendered doc/_doc_authortable_body.html.erb (7.5ms)
+  Rendered doc/index.html.erb within layouts/application (22.0ms)
+  Rendered layouts/_ssl_nav.html.erb (4.6ms)
+Completed 200 OK in 1952ms (Views: 46.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=C&page=5" for 127.0.0.1 at 2015-08-23 22:19:16 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"C", "page"=>"5"}
+  Rendered doc/_doc_authortable_body.html.erb (5.6ms)
+  Rendered doc/index.html.erb within layouts/application (18.8ms)
+  Rendered layouts/_ssl_nav.html.erb (2.3ms)
+Completed 200 OK in 2777ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=C&page=4" for 127.0.0.1 at 2015-08-23 22:19:19 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"C", "page"=>"4"}
+  Rendered doc/_doc_authortable_body.html.erb (5.9ms)
+  Rendered doc/index.html.erb within layouts/application (21.1ms)
+  Rendered layouts/_ssl_nav.html.erb (2.9ms)
+Completed 200 OK in 2107ms (Views: 129.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=C&page=4" for 127.0.0.1 at 2015-08-23 22:19:21 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"C", "page"=>"4"}
+  Rendered doc/_doc_authortable_body.html.erb (6.0ms)
+  Rendered doc/index.html.erb within layouts/application (110.7ms)
+  Rendered layouts/_ssl_nav.html.erb (3.0ms)
+Completed 200 OK in 2232ms (Views: 131.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A&page=4" for 127.0.0.1 at 2015-08-23 22:19:23 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"4"}
+  Rendered doc/_doc_authortable_body.html.erb (6.2ms)
+  Rendered doc/index.html.erb within layouts/application (106.0ms)
+  Rendered layouts/_ssl_nav.html.erb (2.7ms)
+Completed 200 OK in 2560ms (Views: 126.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=B&page=3" for 127.0.0.1 at 2015-08-23 22:19:26 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"B", "page"=>"3"}
+  Rendered doc/_doc_authortable_body.html.erb (5.5ms)
+  Rendered doc/index.html.erb within layouts/application (18.7ms)
+  Rendered layouts/_ssl_nav.html.erb (2.4ms)
+Completed 200 OK in 1972ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=B" for 127.0.0.1 at 2015-08-23 22:19:28 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"B"}
+  Rendered doc/_doc_authortable_body.html.erb (5.5ms)
+  Rendered doc/index.html.erb within layouts/application (21.2ms)
+  Rendered layouts/_ssl_nav.html.erb (2.4ms)
+Completed 200 OK in 1857ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=B" for 127.0.0.1 at 2015-08-23 22:19:30 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"B"}
+  Rendered doc/_doc_authortable_body.html.erb (8.0ms)
+  Rendered doc/index.html.erb within layouts/application (20.8ms)
+  Rendered layouts/_ssl_nav.html.erb (2.6ms)
+Completed 200 OK in 1993ms (Views: 37.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=B" for 127.0.0.1 at 2015-08-23 22:19:32 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"B"}
+  Rendered doc/_doc_authortable_body.html.erb (6.2ms)
+  Rendered doc/index.html.erb within layouts/application (21.2ms)
+  Rendered layouts/_ssl_nav.html.erb (2.5ms)
+Completed 200 OK in 1944ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=B" for 127.0.0.1 at 2015-08-23 22:19:34 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"B"}
+  Rendered doc/_doc_authortable_body.html.erb (6.4ms)
+  Rendered doc/index.html.erb within layouts/application (21.0ms)
+  Rendered layouts/_ssl_nav.html.erb (2.7ms)
+Completed 200 OK in 2693ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=B" for 127.0.0.1 at 2015-08-23 22:19:37 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"B"}
+  Rendered doc/_doc_authortable_body.html.erb (5.7ms)
+  Rendered doc/index.html.erb within layouts/application (21.7ms)
+  Rendered layouts/_ssl_nav.html.erb (66.0ms)
+Completed 200 OK in 2040ms (Views: 100.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=B" for 127.0.0.1 at 2015-08-23 22:19:39 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"B"}
+  Rendered doc/_doc_authortable_body.html.erb (9.0ms)
+  Rendered doc/index.html.erb within layouts/application (130.0ms)
+  Rendered layouts/_ssl_nav.html.erb (3.3ms)
+Completed 200 OK in 2117ms (Views: 148.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=B" for 127.0.0.1 at 2015-08-23 22:19:41 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"B"}
+  Rendered doc/_doc_authortable_body.html.erb (69.9ms)
+  Rendered doc/index.html.erb within layouts/application (85.5ms)
+  Rendered layouts/_ssl_nav.html.erb (2.5ms)
+Completed 200 OK in 2566ms (Views: 101.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=B" for 127.0.0.1 at 2015-08-23 22:19:43 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"B"}
+  Rendered doc/_doc_authortable_body.html.erb (8.6ms)
+  Rendered doc/index.html.erb within layouts/application (25.4ms)
+  Rendered layouts/_ssl_nav.html.erb (3.7ms)
+Completed 200 OK in 2263ms (Views: 43.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/doc.js?body=1" for 127.0.0.1 at 2015-08-23 22:19:46 -0700
+
+
+Started GET "/doc?authors=A" for 127.0.0.1 at 2015-08-23 22:19:46 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A"}
+  Rendered doc/_doc_authortable_body.html.erb (8.0ms)
+  Rendered doc/index.html.erb within layouts/application (27.7ms)
+  Rendered layouts/_ssl_nav.html.erb (4.7ms)
+Completed 200 OK in 2376ms (Views: 53.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/doc.js?body=1" for 127.0.0.1 at 2015-08-23 22:19:50 -0700
+
+
+Started GET "/doc?authors=A&page=2" for 127.0.0.1 at 2015-08-23 22:19:56 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"2"}
+  Rendered doc/_doc_authortable_body.html.erb (6.1ms)
+  Rendered doc/index.html.erb within layouts/application (21.1ms)
+  Rendered layouts/_ssl_nav.html.erb (3.5ms)
+Completed 200 OK in 2608ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A&page=2" for 127.0.0.1 at 2015-08-23 22:19:59 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"2"}
+  Rendered doc/_doc_authortable_body.html.erb (6.0ms)
+  Rendered doc/index.html.erb within layouts/application (22.6ms)
+  Rendered layouts/_ssl_nav.html.erb (3.6ms)
+Completed 200 OK in 1844ms (Views: 42.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A&page=8" for 127.0.0.1 at 2015-08-23 22:20:01 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"8"}
+  Rendered doc/_doc_authortable_body.html.erb (8.4ms)
+  Rendered doc/index.html.erb within layouts/application (22.4ms)
+  Rendered layouts/_ssl_nav.html.erb (2.8ms)
+Completed 200 OK in 2524ms (Views: 107.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=C&page=6" for 127.0.0.1 at 2015-08-23 22:20:03 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"C", "page"=>"6"}
+  Rendered doc/_doc_authortable_body.html.erb (11.1ms)
+  Rendered doc/index.html.erb within layouts/application (125.9ms)
+  Rendered layouts/_ssl_nav.html.erb (4.0ms)
+Completed 200 OK in 2775ms (Views: 149.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=C&page=5" for 127.0.0.1 at 2015-08-23 22:20:06 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"C", "page"=>"5"}
+  Rendered doc/_doc_authortable_body.html.erb (109.0ms)
+  Rendered doc/index.html.erb within layouts/application (127.2ms)
+  Rendered layouts/_ssl_nav.html.erb (4.1ms)
+Completed 200 OK in 1963ms (Views: 151.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=C&page=5" for 127.0.0.1 at 2015-08-23 22:20:08 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"C", "page"=>"5"}
+Completed 500 Internal Server Error in 4ms
+
+Mongo::ConnectionFailure (Failed to connect to a master node at ds047591.mongolab.com:47591):
+  app/controllers/doc_controller.rb:194:in `ssl'
+  app/controllers/doc_controller.rb:33:in `index'
+
+
+  Rendered /Users/akarys92/.rbenv/versions/rbx-2.2.9/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.5ms)
+  Rendered /Users/akarys92/.rbenv/versions/rbx-2.2.9/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.1ms)
+  Rendered /Users/akarys92/.rbenv/versions/rbx-2.2.9/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.4ms)
+  Rendered /Users/akarys92/.rbenv/versions/rbx-2.2.9/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (252.6ms)
+
+
+Started GET "/doc?authors=A&page=5" for 127.0.0.1 at 2015-08-23 22:20:08 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"5"}
+  Rendered doc/_doc_authortable_body.html.erb (9.2ms)
+  Rendered doc/index.html.erb within layouts/application (28.8ms)
+  Rendered layouts/_ssl_nav.html.erb (2.8ms)
+Completed 200 OK in 2622ms (Views: 156.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=B&page=4" for 127.0.0.1 at 2015-08-23 22:20:11 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"B", "page"=>"4"}
+Completed 500 Internal Server Error in 3ms
+
+Mongo::ConnectionFailure (Failed to connect to a master node at ds047591.mongolab.com:47591):
+  app/controllers/doc_controller.rb:194:in `ssl'
+  app/controllers/doc_controller.rb:33:in `index'
+
+
+  Rendered /Users/akarys92/.rbenv/versions/rbx-2.2.9/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.4ms)
+  Rendered /Users/akarys92/.rbenv/versions/rbx-2.2.9/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.7ms)
+  Rendered /Users/akarys92/.rbenv/versions/rbx-2.2.9/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+  Rendered /Users/akarys92/.rbenv/versions/rbx-2.2.9/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.8ms)
+
+
+Started GET "/doc?authors=B&page=2" for 127.0.0.1 at 2015-08-23 22:20:11 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"B", "page"=>"2"}
+Completed 500 Internal Server Error in 3ms
+
+Mongo::ConnectionFailure (Failed to connect to a master node at ds047591.mongolab.com:47591):
+  app/controllers/doc_controller.rb:194:in `ssl'
+  app/controllers/doc_controller.rb:33:in `index'
+
+
+  Rendered /Users/akarys92/.rbenv/versions/rbx-2.2.9/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.5ms)
+  Rendered /Users/akarys92/.rbenv/versions/rbx-2.2.9/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.6ms)
+  Rendered /Users/akarys92/.rbenv/versions/rbx-2.2.9/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.6ms)
+  Rendered /Users/akarys92/.rbenv/versions/rbx-2.2.9/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (28.2ms)
+
+
+Started GET "/doc?authors=B&page=2" for 127.0.0.1 at 2015-08-23 22:20:11 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"B", "page"=>"2"}
+Completed 500 Internal Server Error in 3ms
+
+Mongo::ConnectionFailure (Failed to connect to a master node at ds047591.mongolab.com:47591):
+  app/controllers/doc_controller.rb:194:in `ssl'
+  app/controllers/doc_controller.rb:33:in `index'
+
+
+  Rendered /Users/akarys92/.rbenv/versions/rbx-2.2.9/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /Users/akarys92/.rbenv/versions/rbx-2.2.9/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.3ms)
+  Rendered /Users/akarys92/.rbenv/versions/rbx-2.2.9/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.3ms)
+  Rendered /Users/akarys92/.rbenv/versions/rbx-2.2.9/gems/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (93.3ms)
+
+
+Started GET "/doc?authors=A" for 127.0.0.1 at 2015-08-23 22:20:18 -0700
+
+Errno::EMFILE (Too many open files - Unable to open directory - /Users/akarys92/Desktop/GDAE/Guts/test/SSL/app/assets):
+  kernel/bootstrap/dir.rb:18:in `initialize'
+  kernel/common/dir_glob.rb:80:in `call'
+  kernel/common/dir_glob.rb:33:in `call'
+  kernel/common/dir_glob.rb:58:in `call'
+  kernel/common/dir_glob.rb:296:in `run'
+  kernel/common/dir_glob.rb:359:in `glob'
+  kernel/bootstrap/array.rb:76:in `each'
+  kernel/common/dir_glob.rb:358:in `glob'
+  kernel/common/dir.rb:76:in `glob'
+  kernel/bootstrap/array.rb:76:in `each'
+  kernel/common/dir.rb:73:in `glob'
+  kernel/common/dir.rb:56:in `[]'
+  activesupport (4.0.0) lib/active_support/file_update_checker.rb:96:in `watched'
+  activesupport (4.0.0) lib/active_support/file_update_checker.rb:54:in `updated?'
+  kernel/common/symbol.rb:118:in `to_proc'
+  kernel/bootstrap/array.rb:97:in `map'
+  railties (4.0.0) lib/rails/application.rb:304:in `reload_dependencies?'
+  railties (4.0.0) lib/rails/application.rb:340:in `default_middleware_stack'
+  kernel/bootstrap/proc.rb:20:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:61:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.6.3) lib/thin/connection.rb:86:in `pre_process'
+  kernel/bootstrap/proc.rb:20:in `call'
+  kernel/common/throw_catch.rb:30:in `catch'
+  kernel/common/throw_catch.rb:7:in `register'
+  kernel/common/throw_catch.rb:29:in `catch'
+  thin (1.6.3) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.3) lib/thin/connection.rb:53:in `process'
+  thin (1.6.3) lib/thin/connection.rb:39:in `receive_data'
+  vm/capi/module.cpp:in `run_machine'
+  eventmachine (1.0.7) lib/eventmachine.rb:187:in `run'
+  thin (1.6.3) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.3) lib/thin/server.rb:162:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.0.0) lib/rails/commands/server.rb:84:in `start'
+  railties (4.0.0) lib/rails/commands.rb:78:in `__script__'
+  kernel/common/kernel.rb:769:in `tap'
+  railties (4.0.0) lib/rails/commands.rb:73:in `__script__'
+  kernel/common/code_loader.rb:243:in `require'
+  kernel/common/kernel.rb:705:in `require'
+  bin/rails:4:in `__script__'
+  kernel/delta/code_loader.rb:66:in `load_script'
+  kernel/delta/code_loader.rb:152:in `load_script'
+  kernel/loader.rb:649:in `script'
+  kernel/loader.rb:825:in `main'
+
+
+
+
+Started GET "/doc?authors=A" for 127.0.0.1 at 2015-08-23 22:20:54 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A"}
+  Rendered doc/_doc_authortable_body.html.erb (16.5ms)
+  Rendered doc/index.html.erb within layouts/application (124.2ms)
+  Rendered layouts/_ssl_nav.html.erb (22.5ms)
+Completed 200 OK in 3071ms (Views: 656.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-23 22:20:59 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-23 22:20:59 -0700
+
+
+Started GET "/assets/doc.css?body=1" for 127.0.0.1 at 2015-08-23 22:20:59 -0700
+
+
+Started GET "/assets/ssl.css?body=1" for 127.0.0.1 at 2015-08-23 22:20:59 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-23 22:20:59 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-23 22:20:59 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-08-23 22:21:01 -0700
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-08-23 22:21:01 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-08-23 22:21:02 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-08-23 22:21:02 -0700
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-08-23 22:21:02 -0700
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-08-23 22:21:02 -0700
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-08-23 22:21:04 -0700
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-08-23 22:21:04 -0700
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-08-23 22:21:04 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-08-23 22:21:04 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-08-23 22:21:04 -0700
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-08-23 22:21:04 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-08-23 22:21:06 -0700
+
+
+Started GET "/assets/ssl.js?body=1" for 127.0.0.1 at 2015-08-23 22:21:06 -0700
+
+
+Started GET "/assets/jquery.infinitescroll.js?body=1" for 127.0.0.1 at 2015-08-23 22:21:07 -0700
+
+
+Started GET "/assets/doc.js?body=1" for 127.0.0.1 at 2015-08-23 22:21:07 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-23 22:21:07 -0700
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2015-08-23 22:21:07 -0700
+
+
+Started GET "/doc?authors=A&page=2" for 127.0.0.1 at 2015-08-23 22:21:12 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"2"}
+  Rendered doc/_doc_authortable_body.html.erb (11.1ms)
+  Rendered doc/index.html.erb within layouts/application (96.1ms)
+  Rendered layouts/_ssl_nav.html.erb (13.8ms)
+Completed 200 OK in 2200ms (Views: 211.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A&page=1" for 127.0.0.1 at 2015-08-23 22:21:30 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"1"}
+  Rendered doc/_doc_authortable_body.html.erb (21.4ms)
+  Rendered doc/index.html.erb within layouts/application (74.9ms)
+  Rendered layouts/_ssl_nav.html.erb (11.1ms)
+Completed 200 OK in 1970ms (Views: 120.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=B" for 127.0.0.1 at 2015-08-23 22:21:33 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"B"}
+  Rendered doc/_doc_authortable_body.html.erb (8.8ms)
+  Rendered doc/index.html.erb within layouts/application (38.2ms)
+  Rendered layouts/_ssl_nav.html.erb (2.8ms)
+Completed 200 OK in 2468ms (Views: 64.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=B&page=2" for 127.0.0.1 at 2015-08-23 22:21:44 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"B", "page"=>"2"}
+  Rendered doc/_doc_authortable_body.html.erb (11.8ms)
+  Rendered doc/index.html.erb within layouts/application (33.2ms)
+  Rendered layouts/_ssl_nav.html.erb (2.7ms)
+Completed 200 OK in 2610ms (Views: 57.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A&page=3" for 127.0.0.1 at 2015-08-23 22:21:47 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"3"}
+  Rendered doc/_doc_authortable_body.html.erb (14.6ms)
+  Rendered doc/index.html.erb within layouts/application (65.3ms)
+  Rendered layouts/_ssl_nav.html.erb (7.0ms)
+Completed 200 OK in 2747ms (Views: 114.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A" for 127.0.0.1 at 2015-08-23 22:21:56 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A"}
+  Rendered doc/_doc_authortable_body.html.erb (30.7ms)
+  Rendered doc/index.html.erb within layouts/application (60.3ms)
+  Rendered layouts/_ssl_nav.html.erb (7.4ms)
+Completed 200 OK in 2421ms (Views: 99.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A" for 127.0.0.1 at 2015-08-23 22:22:33 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A"}
+  Rendered doc/_doc_authortable_body.html.erb (11.0ms)
+  Rendered doc/index.html.erb within layouts/application (36.3ms)
+  Rendered layouts/_ssl_nav.html.erb (2.8ms)
+Completed 200 OK in 2562ms (Views: 56.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A" for 127.0.0.1 at 2015-08-23 23:00:37 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A"}
+  Rendered doc/_doc_authortable_body.html.erb (8.5ms)
+  Rendered doc/index.html.erb within layouts/application (34.5ms)
+  Rendered layouts/_ssl_nav.html.erb (3.6ms)
+Completed 200 OK in 2361ms (Views: 73.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-23 23:00:42 -0700
+
+
+Started GET "/assets/doc.css?body=1" for 127.0.0.1 at 2015-08-23 23:00:42 -0700
+
+
+Started GET "/assets/ssl.css?body=1" for 127.0.0.1 at 2015-08-23 23:00:42 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-23 23:00:42 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-23 23:00:42 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-23 23:00:42 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-08-23 23:00:44 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-08-23 23:00:44 -0700
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-08-23 23:00:44 -0700
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-08-23 23:00:44 -0700
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-08-23 23:00:44 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-08-23 23:00:44 -0700
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-08-23 23:00:46 -0700
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-08-23 23:00:46 -0700
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-08-23 23:00:46 -0700
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-08-23 23:00:46 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-08-23 23:00:46 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-08-23 23:00:46 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-08-23 23:00:49 -0700
+
+
+Started GET "/assets/jquery.infinitescroll.js?body=1" for 127.0.0.1 at 2015-08-23 23:00:49 -0700
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2015-08-23 23:00:49 -0700
+
+
+Started GET "/assets/ssl.js?body=1" for 127.0.0.1 at 2015-08-23 23:00:49 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-23 23:00:49 -0700
+
+
+Started GET "/assets/doc.js?body=1" for 127.0.0.1 at 2015-08-23 23:00:49 -0700
+
+
+Started GET "/doc?authors=A&page=2" for 127.0.0.1 at 2015-08-23 23:00:54 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"2"}
+  Rendered doc/_doc_authortable_body.html.erb (9.1ms)
+  Rendered doc/index.html.erb within layouts/application (69.8ms)
+  Rendered layouts/_ssl_nav.html.erb (4.3ms)
+Completed 200 OK in 2731ms (Views: 170.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc" for 127.0.0.1 at 2015-08-23 23:01:04 -0700
+Processing by DocController#index as HTML
+  Rendered doc/_doc_table_body.html.erb (9.5ms)
+  Rendered doc/index.html.erb within layouts/application (46.7ms)
+  Rendered layouts/_ssl_nav.html.erb (6.6ms)
+Completed 200 OK in 2051ms (Views: 93.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?page=2" for 127.0.0.1 at 2015-08-23 23:01:15 -0700
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendered doc/_doc_table_body.html.erb (24.4ms)
+  Rendered doc/index.html.erb within layouts/application (93.8ms)
+  Rendered layouts/_ssl_nav.html.erb (3.7ms)
+Completed 200 OK in 2774ms (Views: 130.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A&page=3" for 127.0.0.1 at 2015-08-23 23:01:18 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"3"}
+  Rendered doc/_doc_authortable_body.html.erb (7.0ms)
+  Rendered doc/index.html.erb within layouts/application (32.1ms)
+  Rendered layouts/_ssl_nav.html.erb (2.6ms)
+Completed 200 OK in 3035ms (Views: 59.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?authors=A&page=4" for 127.0.0.1 at 2015-08-23 23:01:26 -0700
+Processing by DocController#index as HTML
+  Parameters: {"authors"=>"A", "page"=>"4"}
+  Rendered doc/_doc_authortable_body.html.erb (10.2ms)
+  Rendered doc/index.html.erb within layouts/application (46.9ms)
+  Rendered layouts/_ssl_nav.html.erb (5.1ms)
+Completed 200 OK in 2339ms (Views: 89.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc?page=3" for 127.0.0.1 at 2015-08-23 23:01:29 -0700
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"3"}
+  Rendered doc/_doc_table_body.html.erb (6.6ms)
+  Rendered doc/index.html.erb within layouts/application (47.4ms)
+  Rendered layouts/_ssl_nav.html.erb (3.3ms)
+Completed 200 OK in 2355ms (Views: 95.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doc" for 127.0.0.1 at 2015-08-23 23:14:00 -0700
+Processing by DocController#index as HTML
+  Rendered doc/_doc_table_body.html.erb (16.2ms)
+  Rendered doc/index.html.erb within layouts/application (34.4ms)
+  Rendered layouts/_ssl_nav.html.erb (10.5ms)
+Completed 200 OK in 2516ms (Views: 63.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-23 23:14:04 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-23 23:14:04 -0700
+
+
+Started GET "/assets/doc.css?body=1" for 127.0.0.1 at 2015-08-23 23:14:04 -0700
+
+
+Started GET "/assets/ssl.css?body=1" for 127.0.0.1 at 2015-08-23 23:14:04 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-23 23:14:04 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-23 23:14:04 -0700
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-08-23 23:14:06 -0700
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-08-23 23:14:06 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-08-23 23:14:06 -0700
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-08-23 23:14:06 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-08-23 23:14:06 -0700
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-08-23 23:14:06 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-08-23 23:14:06 -0700
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-08-23 23:14:06 -0700
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-08-23 23:14:06 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-08-23 23:14:06 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-08-23 23:14:06 -0700
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-08-23 23:14:06 -0700
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-08-23 23:14:06 -0700
+
+
+Started GET "/assets/jquery.infinitescroll.js?body=1" for 127.0.0.1 at 2015-08-23 23:14:09 -0700
+
+
+Started GET "/assets/ssl.js?body=1" for 127.0.0.1 at 2015-08-23 23:14:09 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-23 23:14:09 -0700
+
+
+Started GET "/assets/analytics.js?body=1" for 127.0.0.1 at 2015-08-23 23:14:09 -0700
+
+
+Started GET "/assets/doc.js?body=1" for 127.0.0.1 at 2015-08-23 23:14:09 -0700
+
+
+Started GET "/doc?page=2" for 127.0.0.1 at 2015-08-23 23:14:13 -0700
+Processing by DocController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendered doc/_doc_table_body.html.erb (10.4ms)
+  Rendered doc/index.html.erb within layouts/application (41.1ms)
+  Rendered layouts/_ssl_nav.html.erb (2.8ms)
+Completed 200 OK in 2356ms (Views: 70.5ms | ActiveRecord: 0.0ms)
