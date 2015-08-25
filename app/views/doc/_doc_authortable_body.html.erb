@@ -1,25 +1,18 @@
 <% @dpag.each do |d| %>
 	<% doc = d %>
-	
-	<% if not doc['pretty_name'] == @currAuth %>
-		<tr class="doc">
-			<% authId = "#" + doc['id'].to_s %>
-			<td><a data-toggle="collapse" data-target= <%= authId %> > <%= doc['pretty_name'] %> </a> 
-				<div class="collapse" id=<%= doc['id'] %> >
-					<ul>
-	<% end %>
 
-			<% @count = @count + 1 %>
-			<li> <a href=<%= doc_path(id: doc['id']) %>> <%= doc['title'] %> </a> </li>		
+	<tr class="doc">
+		<% authId = "#" + doc[:id].to_s %>
+		<td><a data-toggle="collapse" data-target= <%= authId %> style="cursor:pointer"> <%= doc[:name] %> </a> 
+			<div class="collapse" id=<%= doc[:id] %> >
+				<ul>
+					<% doc[:entries].each do |x| %>
+					
+					<li> <a href=<%= doc_path(id: x[:id]) %>> <%= x[:title] %> </a> </li>	
 
-	<% testAuth = @currAuth %>
-	<% @currAuth = doc['pretty_name'] %>
-	<% if not @currAuth == testAuth %>
-		</ul>
-		</div>
-		</td>
-		</tr>
-		
-	<% end %>
+					<% end %>
+				</ul>	
+			</div>
+		</td>	
 	
 <% end %>
