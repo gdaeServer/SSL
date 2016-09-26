@@ -5,7 +5,7 @@ require 'uri'
 
 class DocController < ApplicationController
 	def index
-		#TEST PUSH PULL
+		#TEST GIT
 		#puts "Index, line " + "8"
 		if params[:authors]
 		
