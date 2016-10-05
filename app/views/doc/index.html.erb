@@ -17,6 +17,25 @@
   </div>
 </div>
 
+<!-- Keywords start here!!!!!!!!!!!!!!!!!!!!!!!-->
+<% if not @authors %>
+<div class="panel panel-info">
+  <div class="panel-heading">
+    <div class="panel-title">
+    <div>Keywords: 
+      <div id="alphaString">
+
+        <%= render partial: '/doc/kw_body' %>
+        
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<% end %>
+<!-- Keywords end here!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
+
 <%if not @authors%>
   <div class="panel panel-info ssl-table">
     <div class="panel-heading">

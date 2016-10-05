@@ -14,7 +14,7 @@
       <ul class="nav navbar-nav">
         <li><%= link_to("About", ssl_about_path) %></li>
         <li><%= link_to("Search", ssl_search_path) %></li>
-        <li><%= link_to("Full Listing", docs_path) %></li>
+        <li><%= link_to("Keywords Searching", docs_path) %></li>
         <li><%= link_to("Authors Listing", docs_path + "?authors=A&page=1") %></li>
         <% if current_user.try(:admin?) %>
           <li class="dropdown">

@@ -32,6 +32,16 @@ class DocController < ApplicationController
 			@dpag = Kaminari.paginate_array(@docs).page(1).per(@docs.length-1)
 
 		else
+
+			#TEST starts
+			@kw = ssl_keywords.find("parent"=>"Everything")
+			@kw_docs = []
+			@kw.each do |d|
+				@kw_docs << d
+			end
+			@kwpag = Kaminari.paginate_array(@kw_docs).page(1).per(10)
+			#TEST ends
+
 			@cursor = ssl.find(filters).sort(sorted_by)
 			@count = @cursor.count()
 		
@@ -176,6 +186,13 @@ class DocController < ApplicationController
   	end
 
 	private
+
+	    def ssl_keywords
+	    	db = Mongo::Connection.new("localhost", 27017).db("ssl")
+	    	col = db.collection('categories')
+	    	col
+	    end
+
 		
 		def ssl
 			#puts "private ssl, line " + "150"
@@ -187,6 +204,8 @@ class DocController < ApplicationController
 			db.collection('ssl').create_index("pretty_name")
 			col = db.collection('ssl')
 			col
+
+
 		end
 
 		def filters

@@ -1,0 +1,8 @@
+<% @kwpag.each do |d| %>
+    <% doc = d %>
+        <tr class="doc">
+            <td>
+                <button type="button" class="btn btn-primary active"><%= doc['_id'] %></button>
+            </td>    
+        </tr>
+ <% end %>
