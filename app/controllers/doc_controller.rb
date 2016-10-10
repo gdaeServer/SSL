@@ -33,8 +33,16 @@ class DocController < ApplicationController
 
 		else
 
+			if params[:kw]
+				parent = params[:kw]
+		    else 
+		    	parent = "Everything"
+			end 
+
 			#TEST starts
-			@kw = ssl_keywords.find("parent"=>"Everything")
+			# Second test starts
+			@kw = ssl_keywords.find("parent"=>parent)
+			# Second test ends
 			@kw_docs = []
 			@kw.each do |d|
 				@kw_docs << d
@@ -204,9 +212,9 @@ class DocController < ApplicationController
 			db.collection('ssl').create_index("pretty_name")
 			col = db.collection('ssl')
 			col
-
-
 		end
+
+		
 
 		def filters
 			puts "filters, line " + "159"

@@ -2,7 +2,7 @@
     <% doc = d %>
         <tr class="doc">
             <td>
-                <button type="button" class="btn btn-primary active"><%= doc['_id'] %></button>
+			    <a href=<%= docs_path(kw: doc['_id']) %>> <button type="button" class="btn btn-primary active"><%= doc['_id'] %></button> </a>	
             </td>    
         </tr>
  <% end %>
