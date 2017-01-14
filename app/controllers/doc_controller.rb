@@ -4,6 +4,8 @@ include Mongo
 require 'uri'
 
 class DocController < ApplicationController
+	skip_before_action :verify_authenticity_token # delete this for security!!
+
 	def index
 		#TEST GIT
 		#puts "Index, line " + "8"
@@ -26,31 +28,47 @@ class DocController < ApplicationController
 				
 				entry = {:title => d['title'], :id => d['id']}
 				entries.push(entry)
-				curr = d['pretty_name']				
+				curr = d['pretty_name']
 
 			end
+
+
 			@dpag = Kaminari.paginate_array(@docs).page(1).per(@docs.length-1)
 
 		else
+			# kw_arr = []
+			# kw_arr = kw_arr.push[params[:kw]]
 
-			if params[:kw]
-				parent = params[:kw]
-		    else 
-		    	parent = "Everything"
-			end 
+			@kwpath = params[:kwpath]
+
+			if params[:kw].nil?
+				parent = "Everything"
+				@kwpath = [].push(parent)
+		    else
+		    	parent = params[:kw]
+		    	# @kwpath = params[:kwpath]
+			end
+
+			
+			#TODO
 
 			#TEST starts
-			# Second test starts
+			# ssl_keywords: function that connects to mongoDB and return an array
 			@kw = ssl_keywords.find("parent"=>parent)
-			# Second test ends
+			
+		    # .find return a cursor: a pointer. "Clients can iterate through 
+		    # a cursor to retrieve results" 
 			@kw_docs = []
 			@kw.each do |d|
 				@kw_docs << d
 			end
+
 			@kwpag = Kaminari.paginate_array(@kw_docs).page(1).per(10)
 			#TEST ends
 
 			@cursor = ssl.find(filters).sort(sorted_by)
+			# filters is an array of key-value pairs. It looks like:
+			# {"title": "harry potter", "author": "J.K. Rowling", "subject_terms": "[fiction, fantasy, magic]"}
 			@count = @cursor.count()
 		
 			@docs = []
@@ -63,14 +81,17 @@ class DocController < ApplicationController
 		
 	end
 
+	# show an article (beautified in "views/show.hrml.erb"
 	def show
 		#puts "Show, line " + "19"
 		@doc = ssl.find({id: params[:id]}).to_a.first
+
 		if @doc.nil?
 			redirect_to docs_path, notice: 'No record of doc with id: ' + params[:id].to_s  
 		end
 	end
 
+	# show raw JSON of an article
 	def raw
 		#puts "raw, line " + "27"
 		@raw = ssl.find({id: params[:id]}).to_a.first
@@ -81,6 +102,7 @@ class DocController < ApplicationController
 		end
   	end
 
+  	# I don't understand what it does
 	def find
 		#puts "find, line " + "37"
 		clnt = JSONClient.new
@@ -90,6 +112,8 @@ class DocController < ApplicationController
 		json_response = response.content
 		if json_response.keys.include?("documents")
 			@result = response.content["documents"]
+
+			
 		else
 			@result = ''
 		end
@@ -197,6 +221,22 @@ class DocController < ApplicationController
 
 	    def ssl_keywords
 	    	db = Mongo::Connection.new("localhost", 27017).db("ssl")
+
+	    	# No.1: materialized paths array
+	    	coll = db.collection('catepillers')
+	    	paths_array = ssl.distinct('sslbrowsepath')
+
+
+	    	# NO.2: turn array into tree
+
+	    	# paths_array.each do |p|
+	    	# 	coll.insert({ :path => p })
+	    	# end
+
+
+
+
+	    	# No.3: the acutal tree, WITH the path
 	    	col = db.collection('categories')
 	    	col
 	    end
@@ -223,15 +263,18 @@ class DocController < ApplicationController
 				title = Regexp.new(params[:title].split(' ').map{|word| '(?=.*' << word << ')'}.join(''), true)
 				flts["title"] = title
 			end
+			# authors: array
 			if params.has_key?(:author) and params[:author].match(/^[[:alnum:]\ ]+$/)
 				author = Regexp.union(params[:author].split(' ').map{|word| Regexp.new(word, true)})
 				flts["authors"] = author
 
 			end
+			# keywords: array
 			if params.has_key?(:keywords) and params[:keywords].match(/^[[:alnum:]\ ]+$/)
 				keywords = Regexp.union(params[:keywords].split(' ').map{|word| Regexp.new(word, true)})
 				flts["subject_terms"] = keywords
 			end
+			# disciplines: array
 			if params.has_key?(:disciplines) and params[:disciplines].match(/^[[:alnum:]\ ]+$/)
 				flts["disciplines"] = Regexp.union(params[:disciplines].split(' ').map{|word| Regexp.new(word, true)})
 			end

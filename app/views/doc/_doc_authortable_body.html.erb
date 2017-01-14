@@ -8,7 +8,7 @@
 				<ul>
 					<% doc[:entries].each do |x| %>
 					
-					<li> <a href=<%= docs_path(id: x[:id]) %>> <%= x[:title] %> </a> </li>	
+					<li> <a href=<%= doc_path(id: x[:id]) %>> <%= x[:title] %> </a> </li>	
 
 					<% end %>
 				</ul>	
@@ -16,3 +16,4 @@
 		</td>	
 	
 <% end %>
+

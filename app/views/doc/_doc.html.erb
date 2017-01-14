@@ -57,11 +57,11 @@ end %>
 					</tr>
 					<% end %>
 					<% if not doc['subject_terms'].nil? %>
-			<tr>
-			<th>Keywords</th>
-						<td><%= eval(doc['subject_terms'].to_s.encode("UTF-8", invalid: :replace, undef: :replace).gsub('u\'', '\'').gsub('u"', '"').gsub(/\\.e./, 'e')).sort.join('<br />').html_safe %></td>
-			</tr>
-			<% end %>
+					<tr>
+					<th>Keywords</th>
+						<td><%= eval( doc['subject_terms'].to_s.encode("UTF-8", invalid: :replace, undef: :replace).gsub('u\'', '\'').gsub('u"', '"').gsub(/\\.e./, 'e')).sort.join('<br />').html_safe %></td>
+					</tr>
+					<% end %>
 					
 				</table>
 			</div>

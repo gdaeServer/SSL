@@ -1,8 +1,75 @@
+<p>"your path is" + <%= @kwpath %></p>
+<!-- WHY would move it up here out of the loop 
+solve the "last node nothing shows problem" -->
+
 <% @kwpag.each do |d| %>
     <% doc = d %>
         <tr class="doc">
             <td>
-			    <a href=<%= docs_path(kw: doc['_id']) %>> <button type="button" class="btn btn-primary active"><%= doc['_id'] %></button> </a>	
-            </td>    
+			    <a href=<%= docs_path(kw: doc['name'], kwpath: doc['path']) %>  >
+    					<button id="kw" type="button" class="btn btn-primary active" > 
+    						<%= doc['name'] %> 
+    					</button>			
+ 				</a>	 
+				
+ 		    </td>  
+           
         </tr>
+
+
+
+        <script>
+
+
+   //          console.log("hi");
+
+			
+
+	  //   	var ready = function() {
+
+	  //   		$('#kw').click(function(){
+   //  				alert("The paragraph was clicked.");
+			// 	});
+
+			// 	$('#kw').click(function(){
+			// 		console.log("hello");
+			//     	$.ajax({
+			// 		  type:"GET",
+			// 		  url:"/docs/append_kws",
+			// 		  dataType:"json",
+			// 		  data: {kw: "<%=doc['_id']%>"},
+			// 		  success:function(result){
+			// 		    alert(result);
+			// 		  }
+			// 		})
+		 //    	});
+
+			// };
+
+			// $(window).on('load', ready);
+			// $(document).on('page:change', ready);
+
+   //          $('#kw').click(function() {
+   //          	console.log(" i am running");
+
+   //          	// client cannot access server instance variable
+			// 	// try empty div 
+				
+			// 	// array[kwarr].push(currentElem);
+
+			// 	// client cannot set server instance variable
+			// 	// need to use AJAX post
+				
+				
+			// });
+              
+		</script>
+
  <% end %>
+
+
+
+
+
+ 
+
