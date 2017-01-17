@@ -1,13 +1,16 @@
 require 'jsonclient'
+require 'json'
 require 'mongo'
 include Mongo
 require 'uri'
+
+
+
 
 class DocController < ApplicationController
 	skip_before_action :verify_authenticity_token # delete this for security!!
 
 	def index
-		#TEST GIT
 		#puts "Index, line " + "8"
 		if params[:authors]
 		
@@ -36,39 +39,27 @@ class DocController < ApplicationController
 			@dpag = Kaminari.paginate_array(@docs).page(1).per(@docs.length-1)
 
 		else
-			# kw_arr = []
-			# kw_arr = kw_arr.push[params[:kw]]
-
+			
+			# DEAL with KW: # TODO: top level keyword? parent reference failing cuz kws are broken
 			@kwpath = params[:kwpath]
-
 			if params[:kw].nil?
 				parent = "Everything"
 				@kwpath = [].push(parent)
 		    else
-		    	parent = params[:kw]
-		    	# @kwpath = params[:kwpath]
+		        parent = params[:kw]
+		        # @kwpath = params[:kwpath]
 			end
-
-			
-			#TODO
-
-			#TEST starts
-			# ssl_keywords: function that connects to mongoDB and return an array
-			@kw = ssl_keywords.find("parent"=>parent)
-			
-		    # .find return a cursor: a pointer. "Clients can iterate through 
-		    # a cursor to retrieve results" 
-			@kw_docs = []
-			@kw.each do |d|
-				@kw_docs << d
+		
+			kw = ssl_keywords.find("parent"=>parent)
+			kw_docs = []
+			kw.each do |d|
+				kw_docs << d
 			end
+			@kwpag = Kaminari.paginate_array(kw_docs).page(1).per(10)
 
-			@kwpag = Kaminari.paginate_array(@kw_docs).page(1).per(10)
-			#TEST ends
 
-			@cursor = ssl.find(filters).sort(sorted_by)
-			# filters is an array of key-value pairs. It looks like:
-			# {"title": "harry potter", "author": "J.K. Rowling", "subject_terms": "[fiction, fantasy, magic]"}
+			# DEAL with SSL:
+			@cursor = ssl.find(filters).sort(sorted_by) # add my own query? need to keep filters
 			@count = @cursor.count()
 		
 			@docs = []
@@ -221,24 +212,36 @@ class DocController < ApplicationController
 
 	    def ssl_keywords
 	    	db = Mongo::Connection.new("localhost", 27017).db("ssl")
+	    	coll = db.collection('yummmmy')
 
-	    	# No.1: materialized paths array
-	    	coll = db.collection('catepillers')
-	    	paths_array = ssl.distinct('sslbrowsepath')
-
-
-	    	# NO.2: turn array into tree
-
-	    	# paths_array.each do |p|
-	    	# 	coll.insert({ :path => p })
-	    	# end
-
-
-
-
-	    	# No.3: the acutal tree, WITH the path
-	    	col = db.collection('categories')
-	    	col
+	    	# initialize the keyword tree DB
+	    	if coll.count() == 0 
+		    	# No.1: an array of path values of all docs   	
+		    	paths_array = ssl.distinct('sslbrowsepath')	    	
+		    	# No.2: Turn into Ruby hashes    	
+		    	my_hashes = []
+	            paths_array.each do |p| 
+	            	name = p.strip()[/([^\/]+)$/] # name: word after the last "/" => a leaf child of the kw tree.
+	            	minus_name = p.strip().sub(/\/+#{Regexp.quote(name)}$/, '') # minus_name: the original path minus the name
+	            	parent = minus_name.strip()[/([^\/]+)$/] # word between the second to last and the last "/"s => the leaf child's parent       		
+	           		if parent.nil? or parent == "" or !p.include? "/"
+	            		parent = "Everything"  
+	            	end 
+	            	my_hashes << {
+	            		:name => name,
+	            		:parent => parent, 
+	            		:path => p,
+	            	}
+	            end
+		    	# No.3: import all keywords and their paths into keyword DB
+		    	my_hashes.each do |p|
+		    		coll.insert({ :name => p[:name], :parent => p[:parent], :path => p[:path] })
+		    	end
+		    end 
+		    # No.4: return the imported collection
+	    	# col = db.collection("categories")
+	    	# col
+	    	coll
 	    end
 
 		
@@ -269,7 +272,7 @@ class DocController < ApplicationController
 				flts["authors"] = author
 
 			end
-			# keywords: array
+			# keywords: misleading ???? TODO
 			if params.has_key?(:keywords) and params[:keywords].match(/^[[:alnum:]\ ]+$/)
 				keywords = Regexp.union(params[:keywords].split(' ').map{|word| Regexp.new(word, true)})
 				flts["subject_terms"] = keywords
@@ -286,6 +289,8 @@ class DocController < ApplicationController
 			end
 
 			flts
+			# filters is an array of key-value pairs. It looks like:
+			# {"title": "harry potter", "author": "J.K. Rowling", "subject_terms": "[fiction, fantasy, magic]"}
 		end
 
 		def sorted_by
