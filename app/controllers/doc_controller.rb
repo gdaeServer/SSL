@@ -35,13 +35,15 @@ class DocController < ApplicationController
 
 			end
 
-
 			@dpag = Kaminari.paginate_array(@docs).page(1).per(@docs.length-1)
 
 		else
-			
-			# DEAL with KW: # TODO: top level keyword? parent reference failing cuz kws are broken
-			@kwpath = params[:kwpath]
+			# DEAL with KW: # TODO: top level keyword? parent reference failing cuz ssl data too broken
+			# OR  1. get top level kws separately
+			# 	  2. its children: get everything that is kid = .../{#name}[\/]([^\/]*)/
+			#     3. put all the kids in an array
+			#     4. display them in kws area
+			@kwpath = params[:kwpath] # BUG: kwpath sometimes work sometimes does not.
 			if params[:kw].nil?
 				parent = "Everything"
 				@kwpath = [].push(parent)
@@ -50,18 +52,32 @@ class DocController < ApplicationController
 		        # @kwpath = params[:kwpath]
 			end
 		
-			kw = ssl_keywords.find("parent"=>parent)
+			kw = ssl_keywords.find("parent"=>parent) # all Democracy's kids
+
 			kw_docs = []
 			kw.each do |d|
 				kw_docs << d
 			end
 			@kwpag = Kaminari.paginate_array(kw_docs).page(1).per(10)
 
-
 			# DEAL with SSL:
-			@cursor = ssl.find(filters).sort(sorted_by) # add my own query? need to keep filters
-			@count = @cursor.count()
+			# OR REGEX that certain word in the path: db.categories.find( { path: /,Programming,/ } )
+			# rgex = Regexp.new(parent)
+			# @cursor = ssl.find( {"sslbrowsepath" => rgex} everybody whose path has the "name"
+			cursor_ssl = ssl_keywords.find("name"=>parent) # Democracy docs' path
+			paths = []
+			cursor_ssl.each do |p|
+				paths << p["path"]
+			end
+			
+			paths_reg = Regexp.union(paths.map{|word| Regexp.new(Regexp.quote(word), true)})
 		
+			flts = filters
+			flts["sslbrowsepath"] = paths_reg
+
+
+			@cursor = ssl.find(flts).sort(sorted_by) 
+			@count = @cursor.count()
 			@docs = []
 			start = params[:page].to_i * 20 
 			@cursor.skip(start).first(21).each do |d|
@@ -222,8 +238,8 @@ class DocController < ApplicationController
 		    	my_hashes = []
 	            paths_array.each do |p| 
 	            	name = p.strip()[/([^\/]+)$/] # name: word after the last "/" => a leaf child of the kw tree.
-	            	minus_name = p.strip().sub(/\/+#{Regexp.quote(name)}$/, '') # minus_name: the original path minus the name
-	            	parent = minus_name.strip()[/([^\/]+)$/] # word between the second to last and the last "/"s => the leaf child's parent       		
+	            	minus_name = p.strip().sub(/\/+#{Regexp.quote(name)}$/, '') # minus_name: the original path except "name"
+	            	parent = minus_name.strip()[/([^\/]+)$/] # word between the second to last and the last "/"s => "name"'s parent       		
 	           		if parent.nil? or parent == "" or !p.include? "/"
 	            		parent = "Everything"  
 	            	end 
@@ -270,9 +286,8 @@ class DocController < ApplicationController
 			if params.has_key?(:author) and params[:author].match(/^[[:alnum:]\ ]+$/)
 				author = Regexp.union(params[:author].split(' ').map{|word| Regexp.new(word, true)})
 				flts["authors"] = author
-
 			end
-			# keywords: misleading ???? TODO
+			# keywords: array ???? TODO
 			if params.has_key?(:keywords) and params[:keywords].match(/^[[:alnum:]\ ]+$/)
 				keywords = Regexp.union(params[:keywords].split(' ').map{|word| Regexp.new(word, true)})
 				flts["subject_terms"] = keywords
