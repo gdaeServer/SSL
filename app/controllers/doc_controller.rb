@@ -38,43 +38,55 @@ class DocController < ApplicationController
 			@dpag = Kaminari.paginate_array(@docs).page(1).per(@docs.length-1)
 
 		else
-			# DEAL with KW: # TODO: top level keyword? parent reference failing cuz ssl data too broken
-			# OR  1. get top level kws separately
-			# 	  2. its children: get everything that is kid = .../{#name}[\/]([^\/]*)/
-			#     3. put all the kids in an array
-			#     4. display them in kws area
-			@kwpath = params[:kwpath] # BUG: kwpath sometimes work sometimes does not.
-			if params[:kw].nil?
-				parent = "Everything"
-				@kwpath = [].push(parent)
-		    else
-		        parent = params[:kw]
-		        # @kwpath = params[:kwpath]
-			end
-		
-			kw = ssl_keywords.find("parent"=>parent) # all Democracy's kids
+			# DEAL with KW: 
+			# OR  1. get top level kws separately (Y)
+			# 	  2. its children: get everything that is kid = .../{#name}[\/]([^\/]*)/ (Y)
+			#     3. put all the kids in an array (Y)
+			#     4. make sure unique and display them in kws area
+			# @kwpath = params[:kwpath] # BUG: kwpath sometimes work sometimes does not.
 
-			kw_docs = []
-			kw.each do |d|
-				kw_docs << d
+			if params[:kw].nil?
+				kws = []
+				parent = ""
+				kw_docs = ssl_keywords.find("parent"=> "Everything")
+				kw_docs.each do |d|
+					kws << d["name"]
+				end 
+		    else
+		    	# 1. e.g. kw = Democracy
+		        parent = params[:kw]                     
+		        reg = /#{Regexp.quote(parent)}/
+		        # 2. all docs whose paths have "Democracy"
+		        # can also use ssl.find("sslbrowsepath"=>reg) but much slower
+				kw_docs = ssl_keywords.find("path"=> reg) 
+				# 3. get those paths
+				kws_paths = []
+				kw_docs.each do |d|						  
+					kws_paths << d["path"]
+				end
+				# 4. get all Democracy's direct children, put them in array kws
+				kws = []
+				kws_paths.each do |p|                     
+					match = p.strip().match(/#{Regexp.quote(parent)}[\/]+([^\/]+)/) 
+					kw = match[1] if match
+					if !kw.nil?                           # BUG: The weird behavior when kw=""
+						kws << kw.strip()
+					end 
+				end 
+				# 5. all unique Democracy's direct children
+				kws = kws.uniq                          
 			end
-			@kwpag = Kaminari.paginate_array(kw_docs).page(1).per(10)
+
+			@kwpag = kws # TODO: fix pagination and format 
 
 			# DEAL with SSL:
 			# OR REGEX that certain word in the path: db.categories.find( { path: /,Programming,/ } )
 			# rgex = Regexp.new(parent)
 			# @cursor = ssl.find( {"sslbrowsepath" => rgex} everybody whose path has the "name"
-			cursor_ssl = ssl_keywords.find("name"=>parent) # Democracy docs' path
-			paths = []
-			cursor_ssl.each do |p|
-				paths << p["path"]
-			end
-			
-			paths_reg = Regexp.union(paths.map{|word| Regexp.new(Regexp.quote(word), true)})
-		
-			flts = filters
-			flts["sslbrowsepath"] = paths_reg
 
+			reg = /#{Regexp.quote(parent)}/
+			flts = filters
+			flts["sslbrowsepath"] = reg
 
 			@cursor = ssl.find(flts).sort(sorted_by) 
 			@count = @cursor.count()
@@ -83,7 +95,7 @@ class DocController < ApplicationController
 			@cursor.skip(start).first(21).each do |d|
 				@docs << d
 			end
-			@dpag = Kaminari.paginate_array(@docs).page(1).per(20)
+			@dpag = Kaminari.paginate_array(@docs).page(1).per(20)   #BUG: count and the actual number of articles displayed not same
 		end
 		
 	end
@@ -236,19 +248,39 @@ class DocController < ApplicationController
 		    	paths_array = ssl.distinct('sslbrowsepath')	    	
 		    	# No.2: Turn into Ruby hashes    	
 		    	my_hashes = []
+		    	tops = []
+		    	tops_uniq = []
 	            paths_array.each do |p| 
+
+	            	my_toplevel = p.strip()[/^([^\/]+)/]
+	            	if p.include? "/" 
+		            	tops << {
+		            		:name => my_toplevel,
+		            		:parent => "Everything",
+		            		:path => "",
+		            	}
+		            end
+
 	            	name = p.strip()[/([^\/]+)$/] # name: word after the last "/" => a leaf child of the kw tree.
 	            	minus_name = p.strip().sub(/\/+#{Regexp.quote(name)}$/, '') # minus_name: the original path except "name"
-	            	parent = minus_name.strip()[/([^\/]+)$/] # word between the second to last and the last "/"s => "name"'s parent       		
+	            	parent = minus_name.strip()[/([^\/]+)$/] # word between the second to last and the last "/"s => "name"'s parent       
+
 	           		if parent.nil? or parent == "" or !p.include? "/"
-	            		parent = "Everything"  
+	            		parent = "bye"  
 	            	end 
+
 	            	my_hashes << {
 	            		:name => name,
 	            		:parent => parent, 
 	            		:path => p,
 	            	}
+	            	
 	            end
+
+	            tops_uniq = tops.uniq{|x| x[:name]} 
+
+	            my_hashes = my_hashes | tops_uniq
+
 		    	# No.3: import all keywords and their paths into keyword DB
 		    	my_hashes.each do |p|
 		    		coll.insert({ :name => p[:name], :parent => p[:parent], :path => p[:path] })
