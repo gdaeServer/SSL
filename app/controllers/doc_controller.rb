@@ -64,7 +64,7 @@ class DocController < ApplicationController
 				kw_docs.each do |d|						  
 					kws_paths << d["path"]
 				end
-				# 4. get all Democracy's direct children, put them in array kws
+				# 4. get all direct children
 				kws = []
 				kws_paths.each do |p|                     
 					match = p.strip().match(/#{Regexp.quote(parent)}[\/]+([^\/]+)/) 
@@ -73,7 +73,7 @@ class DocController < ApplicationController
 						kws << kw.strip()
 					end 
 				end 
-				# 5. all unique Democracy's direct children
+				# 5. all unique direct children
 				kws = kws.uniq                          
 			end
 
@@ -238,9 +238,16 @@ class DocController < ApplicationController
 
 	private
 
+		# having this whole separate DB because it's faster
 	    def ssl_keywords
-	    	db = Mongo::Connection.new("localhost", 27017).db("ssl")
-	    	coll = db.collection('yummmmy')
+	    	# db = Mongo::Connection.new("localhost", 27017).db("ssl")
+	    	# coll = db.collection('yummmmy')
+
+	    	mongo_uri = 'mongodb://ahedbe01:gdae2015@ds047591.mongolab.com:47591/heroku_app34131114' #ENV['SSL_MONGODB']
+			db_name = "heroku_app34131114"
+			client = MongoClient.from_uri(mongo_uri)
+			db = client.db(db_name)
+			coll = db.collection('keywords')
 
 	    	# initialize the keyword tree DB
 	    	if coll.count() == 0 
@@ -253,7 +260,7 @@ class DocController < ApplicationController
 	            paths_array.each do |p| 
 
 	            	my_toplevel = p.strip()[/^([^\/]+)/]
-	            	if p.include? "/" 
+	            	if p.include? "/"  #make sure has kids
 		            	tops << {
 		            		:name => my_toplevel,
 		            		:parent => "Everything",
@@ -263,7 +270,7 @@ class DocController < ApplicationController
 
 	            	name = p.strip()[/([^\/]+)$/] # name: word after the last "/" => a leaf child of the kw tree.
 	            	minus_name = p.strip().sub(/\/+#{Regexp.quote(name)}$/, '') # minus_name: the original path except "name"
-	            	parent = minus_name.strip()[/([^\/]+)$/] # word between the second to last and the last "/"s => "name"'s parent       
+	            	parent = minus_name.strip()[/([^\/]+)$/] # word between the second last and the last "/"s => "name"'s parent       
 
 	           		if parent.nil? or parent == "" or !p.include? "/"
 	            		parent = "bye"  
@@ -273,8 +280,7 @@ class DocController < ApplicationController
 	            		:name => name,
 	            		:parent => parent, 
 	            		:path => p,
-	            	}
-	            	
+	            	}	            	
 	            end
 
 	            tops_uniq = tops.uniq{|x| x[:name]} 
@@ -287,8 +293,6 @@ class DocController < ApplicationController
 		    	end
 		    end 
 		    # No.4: return the imported collection
-	    	# col = db.collection("categories")
-	    	# col
 	    	coll
 	    end
 
