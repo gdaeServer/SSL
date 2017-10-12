@@ -33,4 +33,4 @@ Deployment
 
 * We have had success deploying the app to Heroku.
 
-* The deployment instructions for a Windows Server 2008 R2 architecture are in-progress.
+jwei05

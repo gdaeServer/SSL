@@ -1,5 +1,3 @@
-
-
 <div class="panel panel-info">
    <div class="panel-heading">
     <div class="panel-title">
@@ -9,7 +7,7 @@
           <%= label_tag(:title, "Title:") %>
           <%= text_field_tag(:title, params[:title])%>
           <%= label_tag(:author, "Author(s):") %>
-          <%= text_field_tag(:author, params[:author]) %>
+          <%= text_field_tag(:author, params[:author]) %> 
           <%= label_tag(:keywords, "Keywords:") %>
           <%= text_field_tag(:keywords, params[:keywords]) %>
           <%= submit_tag("Search", class: 'btn btn-primary') %>
@@ -24,7 +22,7 @@
 <div class="panel panel-info">
   <div class="panel-heading">
     <div class="panel-title">
-    <div>Keywords: 
+    <div>Browse Topics: 
       <div id="alphaString">
 
         <%= render partial: '/doc/kw_body' %>
