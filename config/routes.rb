@@ -14,6 +14,7 @@ Gdae::Application.routes.draw do
   get '/delete/:id', to: 'doc#delete', as: 'delete'
   get '/edit/:id', to: 'doc#edit', as: 'edit'
   get '/doc', to: 'doc#index', as: 'docs'
+  get '/browse', to: 'doc#browse', as: 'browse'
   get '/get_data', to: 'doc#get_data', as: 'get_data'
   #get '/docs/append_kws', to: 'doc#append_kws', as: 'append_kws'
   post '/doc/create', to: 'doc#create'

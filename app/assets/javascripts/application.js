@@ -16,3 +16,6 @@
 //= require bootstrap-sprockets
 //= require jquery.infinitescroll
 //= require_tree .
+
+
+// replace Plusses and colors / hierarchy 
