@@ -17,16 +17,16 @@ for entry in x:
 final_tree = []
 def fillnode(key, value, nodearr, level):
     newnode = {}
-    newnode.setdefault("text",key)
+
+    newnode.setdefault("text",key.replace("WellBeing", "Well Being"))
     newnode.setdefault("level", level)
-    # newnode.setdefault("icon","glyphicon glyphicon-arrow-right")
-    # newnode.setdefault("selectedIcon","glyphicon glyphicon-arrow-down")
     newnode.setdefault("selectable",True)
-
-
+    newnode.setdefault("showIcon",False)
+    newnode.setdefault("href", "doc?kw={}".format(key.replace('  ', ' ').replace(' ', '+')))
+    
     if value != {}: #if there are children in the hierarchy for this discipline
         newnode["selectable"] = False #we can select on the end
-
+        newnode.pop('href', None)
         rec = newnode.setdefault("nodes", []) #create a new array in node, recurse
         for k, v in value.iteritems():
             fillnode(k, v, rec, level+1)

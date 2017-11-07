@@ -18,29 +18,34 @@
 </div>
 
 
-<%if not @authors%>
-  <div class="panel panel-info ssl-table">
-    <div class="panel-heading">
-      <div class="panel-title">
-      <div>Number of results: <%= @count %></div>
-    </div>
+<% if not @authors %>
+
+
+
+<div class="panel panel-info ssl-table">
+  <div class="panel-heading">
+    <div class="panel-title">
+    <div>Number of results: <%= @count %></div>
   </div>
-    <div class="panel-body">
-      <table class="table" id="docs">
-        <thead>
-          <tr>
-            <th><a href=<%= docs_path({sort_by: :title}) %>>Title</a></th> 
-            <th><a href=<%= docs_path({sort_by: :author}) %>>Author(s)</a></th>
-            <th><a href=<%= docs_path({sort_by: :isbn}) %>>ISBN</a></th>
-          </tr>
-        </thead>
-        <tbody class="page">
-          <%= render partial: '/doc/doc_table_body' %>
-        </tbody>
-      </table>
-      <%= paginate @dpag %>
-    </div>
+</div>
+  <div class="panel-body">
+    <table class="table" id="docs">
+      <thead>
+        <tr>
+          <th><a href=<%= docs_path({sort_by: :title}) %>>Title</a></th> 
+          <th><a href=<%= docs_path({sort_by: :author}) %>>Author(s)</a></th>
+          <!-- <th><a href=<%= docs_path({sort_by: :isbn}) %>>ISBN</a></th> -->
+        </tr>
+      </thead>
+      <tbody class="page">
+        <%= render partial: '/doc/doc_table_body' %>
+      </tbody>
+    </table>
+    <%= paginate @dpag %>
   </div>
+</div>
+
+
 
 <% else %>
    <div class="panel panel-info ssl-table">

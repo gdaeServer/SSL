@@ -3,6 +3,6 @@
   <tr class="doc">
     <td><a href=<%= doc_path(id: doc['id']) %>><%= if not doc['full_title'].nil? then doc['full_title'].html_safe else doc['title'].html_safe end %></a></td>
     <td><%= doc['pretty_name'] %></td>
-    <td><%= doc['isbn'] %></td>
-  </tr>
+<!--     <td><%= doc['isbn'] %></td>
+ -->  </tr>
 <% end %>
