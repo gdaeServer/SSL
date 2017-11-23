@@ -1,7 +1,7 @@
 import json
 
 
-with open("tmp.json") as f:
+with open("mongo_db_dump.json") as f:
     x = json.loads(f.read())
 
 
@@ -15,14 +15,16 @@ for entry in x:
             prev = prev.setdefault(each, {})
 
 final_tree = []
+
+
 def fillnode(key, value, nodearr, level):
     newnode = {}
 
-    newnode.setdefault("text",key.replace("WellBeing", "Well Being"))
+    newnode.setdefault("text",key.replace("WellBeing", "Well Being")) #database error
     newnode.setdefault("level", level)
     newnode.setdefault("selectable",True)
     newnode.setdefault("showIcon",False)
-    newnode.setdefault("href", "doc?kw={}".format(key.replace('  ', ' ').replace(' ', '+')))
+    newnode.setdefault("keyword", "doc?kw={}".format(key.replace('  ', ' ').replace(' ', '+')))
     
     if value != {}: #if there are children in the hierarchy for this discipline
         newnode["selectable"] = False #we can select on the end

@@ -13,7 +13,7 @@ class DocController < ApplicationController
 	def index
 		#puts "Index, line " + "8"
 		if params[:authors]
-		
+			
 			@authors = true
 			reg = '^' + params[:authors]
 			regex = Regexp.new reg
@@ -44,41 +44,10 @@ class DocController < ApplicationController
 			#     3. put all the kids in an array (Y)
 			#     4. make sure unique and display them in kws area
 			# @kwpath = params[:kwpath] # BUG: kwpath sometimes work sometimes does not.
-
-			if params[:kw].nil?
-				kws = []
-				parent = ""
-				kw_docs = ssl_keywords.find("parent"=> "Everything")
-				kw_docs.each do |d|
-					kws << d["name"]
-				end 
-		    else
-
-		    	# 1. e.g. kw = Democracy
-		        parent = params[:kw]                     
-		        reg = /#{Regexp.quote(parent)}/
-		        # 2. all docs whose paths have "Democracy"
-		        # can also use ssl.find("sslbrowsepath"=>reg) but much slower
-				kw_docs = ssl_keywords.find("path"=> reg) 
-				# 3. get those paths
-				kws_paths = []
-				kw_docs.each do |d|						  
-					kws_paths << d["path"]
-				end
-				# 4. get all direct children
-				kws = []
-				kws_paths.each do |p|                     
-					match = p.strip().match(/#{Regexp.quote(parent)}[\/]+([^\/]+)/) 
-					kw = match[1] if match
-					if !kw.nil?                           # BUG: The weird behavior when kw=""
-						kws << kw.strip()
-					end 
-				end 
-				# 5. all unique direct children
-				kws = kws.uniq                          
+			parent = ""
+			if not params[:kw].nil?
+				parent = params[:kw]                     
 			end
-
-			@kwpag = kws # TODO: fix pagination and format 
 
 			# DEAL with SSL:
 			# OR REGEX that certain word in the path: db.categories.find( { path: /,Programming,/ } )
@@ -99,49 +68,6 @@ class DocController < ApplicationController
 			@dpag = Kaminari.paginate_array(@docs).page(1).per(20)   #BUG: count and the actual number of articles displayed not same
 		end
 		
-	end
-	def results
-	        parent = params[:kw]                     
-	        reg = /#{Regexp.quote(parent)}/
-	        # 2. all docs whose paths have "Democracy"
-	        # can also use ssl.find("sslbrowsepath"=>reg) but much slower
-			kw_docs = ssl_keywords.find("path"=> reg) 
-			# 3. get those paths
-			kws_paths = []
-			kw_docs.each do |d|						  
-				kws_paths << d["path"]
-			end
-			# 4. get all direct children
-			kws = []
-			kws_paths.each do |p|                     
-				match = p.strip().match(/#{Regexp.quote(parent)}[\/]+([^\/]+)/) 
-				kw = match[1] if match
-				if !kw.nil?                           # BUG: The weird behavior when kw=""
-					kws << kw.strip()
-				end 
-			end 
-			# 5. all unique direct children
-			kws = kws.uniq                          
-
-			@kwpag = kws # TODO: fix pagination and format 
-
-			# DEAL with SSL:
-			# OR REGEX that certain word in the path: db.categories.find( { path: /,Programming,/ } )
-			# rgex = Regexp.new(parent)
-			# @cursor = ssl.find( {"sslbrowsepath" => rgex} everybody whose path has the "name"
-
-			reg = /#{Regexp.quote(parent)}/
-			flts = filters
-			flts["sslbrowsepath"] = reg
-
-			@cursor = ssl.find(flts).sort(sorted_by) 
-			@count = @cursor.count()
-			@docs = []
-			start = params[:page].to_i * 20 
-			@cursor.skip(start).first(21).each do |d|
-				@docs << d
-			end
-			@dpag = Kaminari.paginate_array(@docs).page(1).per(20)   #BUG: count and the actual number of articles displayed not same
 	end
 
 	# show an article (beautified in "views/show.hrml.erb"
@@ -267,7 +193,6 @@ class DocController < ApplicationController
 	def delete
   		#puts "delete, line " + "133"
 	  	if current_user.try(:admin?)
-      			puts params
 	      		if params[:id].nil?
 	        		puts 'Failed to find id'
         			redirect_to doc_index_path, notice: 'Could not delete that doc'
@@ -280,13 +205,29 @@ class DocController < ApplicationController
 	  	end
   	end
 
+  	def browse
+
+  		#All the data needed is loaded from public/discipline_hierarchy.json. 
+  		#To re-create this file, use the python script mongojson_to_bootstrap_htree_parse.py with a
+  		# json prepared as in the commented out code below. see
+  		
+
+		# coll = ssl_keywords
+		# whole_keywords = coll.find()
+		# File.open("tmp.json", 'w') { |file| 
+		# 	whole_keywords.each do |d|
+		# 		file.write(d)		
+		#  end
+		# }
+
+
+  	end
 	private
 
 		# having this whole separate DB because it's faster
 	    def ssl_keywords
 	    	# db = Mongo::Connection.new("localhost", 27017).db("ssl")
 	    	# coll = db.collection('yummmmy')
-
 	    	mongo_uri = 'mongodb://ahedbe01:gdae2015@ds047591.mongolab.com:47591/heroku_app34131114' #ENV['SSL_MONGODB']
 			db_name = "heroku_app34131114"
 			client = MongoClient.from_uri(mongo_uri)
@@ -295,8 +236,10 @@ class DocController < ApplicationController
 
 	    	# initialize the keyword tree DB
 	    	if coll.count() == 0 
-		    	# No.1: an array of path values of all docs   	
-		    	paths_array = ssl.distinct('sslbrowsepath')	    	
+		    	# No.1: an array of path values of all docs 
+
+		    	paths_array = ssl.distinct('sslbrowsepath')
+
 		    	# No.2: Turn into Ruby hashes    	
 		    	my_hashes = []
 		    	tops = []
@@ -403,6 +346,7 @@ class DocController < ApplicationController
 			end
 			srt
 		end
+
 
 
 end

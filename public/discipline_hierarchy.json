@@ -3,7 +3,7 @@
    
       
       {
-         "text":"Anthropology",
+         "text":"ANTHROPOLOGY",
          "showIcon":false,
          "selectable":false,
          "nodes":[
@@ -18,6 +18,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Anthropocentrism+and+Science",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -34,6 +35,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -42,6 +44,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Ethnoarchaeology",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -50,9 +53,11 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Historical+Archaeology",
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             },
             {
@@ -108,6 +113,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Anthropogenesis+Evolutionary+Theory",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -146,9 +152,11 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             },
             {
@@ -162,6 +170,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Approaches+and+Interpretations",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -170,6 +179,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Culture",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -178,6 +188,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Education",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -186,6 +197,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Gender",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -194,6 +206,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Globalization",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -202,6 +215,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Human+Welfare",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -210,6 +224,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Identity",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -218,6 +233,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Knowledge+and+Discourse",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -226,6 +242,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Language+Evolution+and+Change",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -234,6 +251,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Language+Loss+and+Rights",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -242,6 +260,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Language+Representations+and+Usage",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -250,6 +269,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Media+and+Technology",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -258,6 +278,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Multilingualism",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -266,6 +287,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Nation+and+Identity",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -274,6 +296,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Politics+and+Power",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -282,9 +305,11 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Race",
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             },
             {
@@ -298,6 +323,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Cognitive+Approaches",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -306,6 +332,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Cultural+Materialism",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -314,6 +341,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Cultural+Particularism,+Universalism,+and+Relativism",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -322,6 +350,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Ecological+Approaches",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -330,6 +359,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Ethnological+Approaches+and+Participant+Observation",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -338,6 +368,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Eurocentrism,+Nationalism,+and+Other+Issues+of+Place",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -346,6 +377,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Evolutionary+Approaches",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -354,6 +386,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Gender+Orientation",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -362,6 +395,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Hermeneutics",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -370,6 +404,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Idealism",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -378,6 +413,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Marxian+and+NeoMarxian+Approaches",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -386,6 +422,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Other",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -394,6 +431,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"PostColonialism+and+Subaltern+Views",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -402,6 +440,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"PostModernism",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -410,6 +449,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Realist+Narratives",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -418,6 +458,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Structuralism+and+PostStructuralism",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -426,9 +467,11 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Theoretic+Issues",
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             },
             {
@@ -460,6 +503,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Diffusion+and+Clash+of+Cultures",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -468,6 +512,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Evolution+of+Culture",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -476,6 +521,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Globalization",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -484,6 +530,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Human+Nature+and+Culture",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -492,6 +539,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Identity,+Place,+Culture",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -500,6 +548,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"NGOs+and+Social+Change",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -516,6 +565,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Diffusion+and+Clash+of+Cultures",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -588,6 +638,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Anthropology+and+Public+Policy",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -596,6 +647,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Autonomy+and+SelfDetermination",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -604,6 +656,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Civil+Society+and+the+State",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -612,6 +665,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Institutions",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -620,6 +674,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Nation,+State,+and+Tribe",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -628,6 +683,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Politics,+Power,+and+Culture",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -668,6 +724,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Economics+and+Culture",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -676,6 +733,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Sustainability+and+Development",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -684,6 +742,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Wealth+and+Poverty",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -708,6 +767,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Ethnic+Suppression+and+Genocide",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -716,6 +776,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Exploitation+and+Human+Rights",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -724,6 +785,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Terrorism+and+War",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -732,6 +794,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Violence+and+Aggression",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -754,16 +817,19 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             }
          ],
+         "color":"#198c19",
          "level":0
       },
       {
-         "text":"Economics",
+         "text":"ECONOMICS",
          "showIcon":false,
          "selectable":false,
          "nodes":[
@@ -826,6 +892,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -834,6 +901,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Community,+Participation+and+Human+Development",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -866,6 +934,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -874,6 +943,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Ecology+and+Habitat",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -882,6 +952,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Institutions",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -946,6 +1017,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -954,6 +1026,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Methodology+of+Development+Economics",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1018,6 +1091,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1082,6 +1156,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1138,6 +1213,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1146,6 +1222,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Transition+from+Socialism+to+Markets",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1178,9 +1255,11 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             },
             {
@@ -1194,6 +1273,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Development+Policy",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1202,6 +1282,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Ecology+and+Natural+Resources",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1210,6 +1291,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Economic+Management+and+Reforms",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1274,6 +1356,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1282,6 +1365,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Financial+Crises+and+Recovery+Efforts",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1308,6 +1392,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Political+Issues",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -1322,6 +1407,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1330,6 +1416,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Food+and+Agricultural+Policies",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1338,6 +1425,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Governance+and+Forms+of+Governments",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1388,6 +1476,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Deregulation",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -1402,6 +1491,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1410,6 +1500,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Labor+Markets",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1418,6 +1509,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Market+Formation+and+Regulation",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1426,6 +1518,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Monetary+Policy",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1434,6 +1527,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Neoliberal+Regime",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1442,6 +1536,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Poverty",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1450,6 +1545,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Technology",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1458,6 +1554,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Theory+of+Economic+Policy",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1514,6 +1611,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1522,6 +1620,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Trade+Policy+and+Globalization",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1530,9 +1629,11 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Welfare",
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             },
             {
@@ -1564,6 +1665,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"+Sustainability+Approach",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -1588,6 +1690,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"+Evolutionary+Approach",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -1612,6 +1715,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"PostKeynesian+Approach",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -1628,6 +1732,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Political+Economy+Approach",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -1652,6 +1757,7 @@
                                        "level":5
                                     }
                                  ],
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -1684,12 +1790,14 @@
                                        "level":5
                                     }
                                  ],
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1724,6 +1832,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"+Consumerism",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -1746,6 +1855,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1810,6 +1920,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1818,6 +1929,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Economics+Education",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1842,6 +1954,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1850,6 +1963,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Paradigms+Compared",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1858,6 +1972,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Philosophy,+Sociology+of+Economics",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1866,6 +1981,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Policy",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1874,6 +1990,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Psychology+and+Behavior",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1882,9 +1999,11 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Theory+vs.+Reality",
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             },
             {
@@ -1898,6 +2017,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Communications+and+Transportation",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1906,6 +2026,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Culture+and+Consumption",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1914,6 +2035,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Economic+Assistance",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1922,6 +2044,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Economic+Transitions",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1930,6 +2053,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Evaluation+and+Assessment+of+Globalization",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1938,6 +2062,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Financial+Globalization",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1946,6 +2071,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Food+and+Agriculture",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1954,6 +2080,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Foreign+Direct+Investment",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1978,6 +2105,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1986,6 +2114,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Global+Governance",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -1994,6 +2123,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Global+Neoliberal+Regime",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2002,6 +2132,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Global+Trade",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2010,6 +2141,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Globalization+and+Human+Capital",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2018,6 +2150,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Globalization+and+Women",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2026,6 +2159,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Globalization:+Negative+Development+Impacts",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2034,6 +2168,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Globalization:+Positive+Development+Impacts",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2042,6 +2177,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Inequality",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2050,6 +2186,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Multilateral+Institutions:+Bretton+Woods+System",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2058,6 +2195,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Multilateral+Institutions:+Other",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2066,6 +2204,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Regulation+and+Deregulation",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2074,9 +2213,11 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Transnational+Corporations",
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             },
             {
@@ -2098,6 +2239,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2106,6 +2248,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Economics+of+Discrimination",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2114,6 +2257,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Economics+of+Distribution",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2194,6 +2338,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2202,6 +2347,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Growth+Issues",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2234,6 +2380,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2242,6 +2389,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Income+Inequality",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2274,6 +2422,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2322,6 +2471,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2362,6 +2512,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2394,6 +2545,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2450,6 +2602,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2516,6 +2669,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"+Output+Analysis",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -2530,6 +2684,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2538,9 +2693,11 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"War+and+Military+Spending",
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             },
             {
@@ -2554,6 +2711,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Consumption+and+WellBeing",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2562,6 +2720,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Evaluation+of+WellBeing",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2570,6 +2729,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Government+and+WellBeing",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2618,6 +2778,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2626,6 +2787,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"The+Economy+and+WellBeing",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2634,6 +2796,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Theory+and+Justice",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2642,6 +2805,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Visions+of+a+Good+Life",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2650,6 +2814,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Wealth+and+Poverty",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2658,17 +2823,20 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Work",
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             }
          ],
+         "color":"#198c19",
          "level":0
       },
       
       {
-         "text":"History",
+         "text":"HISTORY",
          "showIcon":false,
          "selectable":false,
          "nodes":[
@@ -2723,6 +2891,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2803,6 +2972,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2851,6 +3021,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2859,6 +3030,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Economic+Planning+and+Policy",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2877,6 +3049,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Banking",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -2893,6 +3066,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Transition",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -2917,6 +3091,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Stock+Exchange",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -2931,6 +3106,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -2949,6 +3125,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Effects",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -2973,12 +3150,14 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Regional+Economic+Agreements",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3013,6 +3192,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Socialist",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -3027,6 +3207,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3067,6 +3248,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3107,6 +3289,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3115,6 +3298,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Poverty,+Inequality,+and+Standard+of+Living",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3147,9 +3331,11 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             },
             {
@@ -3163,6 +3349,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Agriculture",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3171,6 +3358,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Biodiversity",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3187,6 +3375,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3195,6 +3384,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Environmental+Destruction",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3203,6 +3393,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Environmental+Justice",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3227,6 +3418,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3235,6 +3427,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Environmental+Politics+and+State+Actors",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3267,6 +3460,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3299,6 +3493,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3307,6 +3502,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Gender",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3331,6 +3527,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3347,6 +3544,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3355,6 +3553,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Land+Use",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3363,6 +3562,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Minerals+and+Mining",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3371,9 +3571,11 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Water",
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             },
             {
@@ -3395,6 +3597,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3453,12 +3656,14 @@
                                        "level":5
                                     }
                                  ],
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3477,6 +3682,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Political+Culture",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -3501,12 +3707,14 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Parties",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3587,6 +3795,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3605,6 +3814,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Socialism",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -3637,6 +3847,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"National+Identity",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -3651,6 +3862,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3717,12 +3929,14 @@
                                        "level":5
                                     }
                                  ],
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3771,6 +3985,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3787,9 +4002,11 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             },
             {
@@ -3803,6 +4020,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Archives",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3851,6 +4069,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3869,6 +4088,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Film",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -3877,6 +4097,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Modern+Media",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -3885,6 +4106,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"News+Services",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -3893,12 +4115,14 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Other+Media",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3915,6 +4139,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3933,6 +4158,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Production",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -3971,6 +4197,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3979,6 +4206,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Culture+as+Commodity",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -3995,6 +4223,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -4011,6 +4240,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -4059,6 +4289,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -4067,6 +4298,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Health,+Education,+and+WellBeing",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -4075,6 +4307,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Local+History",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -4139,6 +4372,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -4187,6 +4421,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -4195,9 +4430,11 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Tourism",
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             },
             {
@@ -4221,6 +4458,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Border+Establishment",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -4229,6 +4467,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Boundaries+and+Borderlands",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -4245,6 +4484,7 @@
                                        "level":5
                                     }
                                  ],
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -4253,6 +4493,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Historical+Models",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -4261,6 +4502,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Political+Activity",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -4277,6 +4519,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Critique",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -4285,6 +4528,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Definition",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -4341,6 +4585,7 @@
                                        "level":5
                                     }
                                  ],
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -4357,6 +4602,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Balance+of+Power",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -4365,6 +4611,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Cold+War",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -4373,6 +4620,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Diplomacy",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -4381,6 +4629,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Internal+Conflicts",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -4389,6 +4638,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"War,+Peace,+and+Security",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -4413,6 +4663,7 @@
                                        "level":5
                                     }
                                  ],
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -4421,6 +4672,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"International+Issues",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -4429,6 +4681,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Migration+Patterns",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -4437,6 +4690,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Migration+Policies",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -4445,6 +4699,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Theory",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -4461,6 +4716,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"League+of+Nations",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -4469,6 +4725,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Regional",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -4477,6 +4734,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"United+Nations",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -4491,16 +4749,19 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             }
          ],
+         "color":"#198c19",
          "level":0
       },
       {
-         "text":"Philosophy",
+         "text":"PHILOSOPHY",
          "showIcon":false,
          "selectable":false,
          "nodes":[
@@ -4539,6 +4800,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -4579,6 +4841,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -4587,6 +4850,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Future+Generations",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -4627,6 +4891,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -4635,6 +4900,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Intergenerational+Justice",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -4667,6 +4933,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -4685,6 +4952,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Current+Issues",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -4693,6 +4961,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Debates",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -4701,6 +4970,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Transcultural+Application",
+                                 "color":"#ae3f3f",
                                  "level":4
                               },
                               {
@@ -4709,15 +4979,18 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Women's+Human+Rights",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             },
             {
@@ -4731,6 +5004,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Deep+Ecology",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -4747,6 +5021,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -4755,6 +5030,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Ecofeminism",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -4763,6 +5039,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Environmental+Ethics",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -4771,6 +5048,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Environmental+Politics",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -4779,6 +5057,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Environmental+Valuation",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -4787,6 +5066,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Land+Ethics",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -4829,12 +5109,14 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Aristotle",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -4843,6 +5125,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Rights+of+Nature",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -4851,6 +5134,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Systemic+Issues",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -4859,9 +5143,11 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Theory+and+Practice",
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             },
             {
@@ -4907,6 +5193,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -4915,6 +5202,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Jihad",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -4939,6 +5227,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -4947,6 +5236,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Rules+and+Conventions+of+War",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -4955,6 +5245,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Theory+of+Just+War",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -4963,6 +5254,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Various+Perspectives+on+War",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -4995,9 +5287,11 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             },
             {
@@ -5027,6 +5321,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5051,6 +5346,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5077,6 +5373,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Functionings",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -5115,6 +5412,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5123,6 +5421,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Culture+and+WellBeing",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5131,6 +5430,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Gender+and+WellBeing",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5139,6 +5439,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Justice+and+WellBeing",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5165,6 +5466,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Desire+Satisfaction",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -5179,6 +5481,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5187,16 +5490,19 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Social+Philosophy",
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             }
          ],
+         "color":"#198c19",
          "level":0
       },
       {
-         "text":"Political Science",
+         "text":"POLITICAL SCIENCE",
          "showIcon":false,
          "selectable":false,
          "nodes":[
@@ -5211,6 +5517,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Colonialism,+Imperialism,+and+Liberation+Struggles",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5251,6 +5558,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5275,6 +5583,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5339,6 +5648,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5347,6 +5657,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Politics+of+Mass+Society",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5355,9 +5666,11 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Social+Movements",
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             },
             {
@@ -5371,6 +5684,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Approach,+Critique+of+International+Relations+Theory,+and+Methodology",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5403,6 +5717,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5411,6 +5726,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Environmental+Issues",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5443,6 +5759,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5475,6 +5792,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5483,6 +5801,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"NorthSouth+Relations+and+Politics+of+Development",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5491,6 +5810,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Politics+of+Aid,+FDI,+and+Capital+Flows",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5523,6 +5843,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5555,9 +5876,11 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             },
             {
@@ -5571,6 +5894,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Approach,+Critique,+and+Methodology+of+Political+Theory+and+Philosophy",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5619,6 +5943,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5627,6 +5952,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Elites,+Classes,+and+the+State",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5635,6 +5961,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Ethics",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5643,6 +5970,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"General+Issues+in+Political+Theory",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5651,6 +5979,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"History+of+Political+Theory",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5683,6 +6012,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5707,6 +6037,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5733,6 +6064,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"PostCold+War+Power+Balance",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -5747,6 +6079,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5803,9 +6136,11 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             },
             {
@@ -5867,6 +6202,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5875,6 +6211,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Citizens,+Bureaucrats,+and+Politicians",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5891,6 +6228,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5925,6 +6263,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Improvement",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -5939,6 +6278,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5973,12 +6313,14 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Welfare+State",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5987,6 +6329,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"NonGovernmental+Organizations",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -5995,6 +6338,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Privatization",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6003,9 +6347,11 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Theory+and+Research",
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             },
             {
@@ -6059,6 +6405,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6091,6 +6438,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6107,6 +6455,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6115,6 +6464,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"International+Security+and+Peacekeeping",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6123,6 +6473,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Media,+Culture,+and+Society",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6131,6 +6482,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Research+Issues:+Approach,+Critique+and+Methodology",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6139,6 +6491,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Resource+Use+and+Environment",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6189,22 +6542,26 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Welfare+State",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             }
          ],
+         "color":"#198c19",
          "level":0
       },
       {
-         "text":"Social Psychology",
+         "text":"SOCIAL PSYCHOLOGY",
          "showIcon":false,
          "selectable":false,
          "nodes":[
@@ -6219,6 +6576,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Aggression,+Violence+and+AntiSocial+Behavior",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6227,6 +6585,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Business,+Bureaucracy,+and+Organization",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6235,6 +6594,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Children's+Issues",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6243,6 +6603,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Colonialism,+Oppression,+and+Resistance",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6251,6 +6612,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Community,+Ethics,+and+Society",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6259,6 +6621,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Economics+and+Psychology",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6267,6 +6630,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Education+and+Socialization",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6275,6 +6639,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Environment+and+Sustainability",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6283,6 +6648,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Gender+Issues",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6291,6 +6657,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Health+and+WellBeing",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6299,6 +6666,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Human+Rights+and+Social+Justice",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6307,6 +6675,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Nation,+State,+and+Politics",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6315,6 +6684,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Religion+and+Ideology",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6323,9 +6693,11 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"War,+Conflict,+and+Terrorism",
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             },
             {
@@ -6339,6 +6711,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Cognitive+Theory",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6347,6 +6720,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Critical+Psychology",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6355,6 +6729,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Cultural+Psychology+and+CrossCultural+Issues",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6363,6 +6738,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Deconstructionism+and+PostModernism",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6371,6 +6747,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Evolutionary+Psychology",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6379,6 +6756,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Feminist+Approaches",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6387,6 +6765,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Gender+Issues",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6395,6 +6774,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Indigenous,+NonWestern+and+PostColonialist+Approaches",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6403,6 +6783,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Marxist+Approaches",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6411,6 +6792,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Positive+Psychology",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6419,6 +6801,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Social+Neuroscience",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6427,6 +6810,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Social+Psychology+and+Human+Values",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6435,6 +6819,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Sociological+Approaches",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6443,9 +6828,11 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Various+Modern+Theories",
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             },
             {
@@ -6459,6 +6846,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Bandwagon+Effects,+NIMBY,+and+Collective+Delusions",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6467,6 +6855,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Caste,+Class,+Status,+and+Hierarchy",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6475,6 +6864,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Charity,+Volunteerism,+and+Prosocial+Behavior",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6483,6 +6873,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Deindividuation+and+Dehumanization",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6491,6 +6882,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Group+Communication",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6507,6 +6899,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6515,6 +6908,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Inter+and+IntraGroup+Dynamics",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6523,6 +6917,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Interpersonal+and+Familial+Relations",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6531,6 +6926,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Norms,+Shared+Values,+and+Beliefs",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6539,6 +6935,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Peer+Groups,+Reference+Groups+and+Group+Identity",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6547,6 +6944,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Power,+Authority,+and+Domination",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6555,6 +6953,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Race,+Religion,+and+Ethnicity",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6563,9 +6962,11 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Social+Dilemmas,+Prisoner's+Dilemma,+and+Tragedy+of+the+Commons",
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             },
             {
@@ -6579,6 +6980,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Attitude,+Emotions+and+WellBeing",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6587,6 +6989,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Communication",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6595,6 +6998,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Eurocentrism,+Colonial+and+PostColonial+Issues",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6603,6 +7007,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Identity",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6611,6 +7016,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Marketing,+Persuasion,+and+Propaganda",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6619,6 +7025,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Motivation",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6627,6 +7034,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Perception,+Judgment+and+Mental+Representation",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6635,6 +7043,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Prejudice,+Stigma+and+Discrimination",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6643,16 +7052,19 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Race+and+Ethnicity",
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             }
          ],
+         "color":"#198c19",
          "level":0
       },
       {
-         "text":"Sociology",
+         "text":"SOCIOLOGY",
          "showIcon":false,
          "selectable":false,
          "nodes":[
@@ -6667,6 +7079,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Comparative+Cultures",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6675,6 +7088,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Cultural+Politics",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6683,6 +7097,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Diffusionism+and+Cultural+Change",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6691,6 +7106,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Ethics,+Norms,+and+Values",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6699,6 +7115,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Ethnicity,+Language,+and+Culture",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6707,6 +7124,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Gender",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6715,6 +7133,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Globalization,+Cultures,+and+Communication",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6723,6 +7142,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Identity+and+Culture",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6731,6 +7151,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Industrial+and+Agrarian+Societies",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6739,6 +7160,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Institutions",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6747,6 +7169,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Institutions+and+Nation+Building",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6755,6 +7178,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Market+Culture",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6763,6 +7187,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Methods+of+Study",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6771,6 +7196,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Modernity+and+Tradition",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6779,6 +7205,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Nature",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6787,6 +7214,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Politics+of+Development",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6795,6 +7223,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Postmodernism+and+Politics",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6803,6 +7232,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Social+Change+and+Development",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6811,6 +7241,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Sociological+Theory",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6819,6 +7250,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Tribal+Society,+Race+and+Caste",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6827,9 +7259,11 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Westernization",
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             },
             {
@@ -6843,6 +7277,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Ascription+and+Social+Identity",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6859,6 +7294,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6867,6 +7303,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"ChildBearing",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6875,6 +7312,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Comparative+Kinship",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6883,6 +7321,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Demographic+Trends+and+Policy",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6891,6 +7330,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Domestic+Violence",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6907,6 +7347,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6915,6 +7356,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Family,+Race,+and+Nation",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6923,6 +7365,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Gender+Inequality",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6931,6 +7374,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Gender,+Work,+and+Family",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6939,6 +7383,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Globalization",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6947,6 +7392,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Marriage",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6955,6 +7401,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Modernization+and+Family+Change",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6971,6 +7418,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -6979,9 +7427,11 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"WellBeing+and+Family",
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             },
             {
@@ -6995,6 +7445,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Armed+Conflict",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7003,6 +7454,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Authority",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7011,6 +7463,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Citizenship",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7019,6 +7472,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Classes",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7027,6 +7481,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Colonialism+and+Imperialism",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7035,6 +7490,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Democracy",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7043,6 +7499,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Elites",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7067,6 +7524,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7075,6 +7533,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Human+Rights",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7083,6 +7542,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Land+Reform",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7091,6 +7551,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Land+Tenure",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7099,6 +7560,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Legitimation",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7115,6 +7577,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7123,6 +7586,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Nationalism",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7163,6 +7627,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7171,6 +7636,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Political+Culture",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7179,6 +7645,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Power",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7243,6 +7710,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7251,6 +7719,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Social+Stratification",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7259,6 +7728,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"The+State",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7267,6 +7737,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Theory+of+Political+Sociology",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7275,9 +7746,11 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Transition+Countries",
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             },
             {
@@ -7291,6 +7764,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Animism,+Pantheism,+and+Monotheism",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7299,6 +7773,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Capitalism",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7307,6 +7782,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Charisma",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7315,6 +7791,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Colonialism",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7323,6 +7800,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Ethics+and+Politics",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7331,6 +7809,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Gender",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7339,6 +7818,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Globalization",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7347,6 +7827,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Identity",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7355,6 +7836,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Ideology+and+Utopia",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7363,6 +7845,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Magic+and+Witchcraft",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7371,6 +7854,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Modernism",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7379,6 +7863,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Nationalism",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7387,6 +7872,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Nature",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7395,6 +7881,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Secularism",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7403,6 +7890,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Social+Change",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7411,6 +7899,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"State,+Public+Sphere,+Society,+and+Religion",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7429,6 +7918,7 @@
                                  "selectable":true,
                                  "nodes":[],
                                  "keyword":"Examples",
+                                 "color":"#ae3f3f",
                                  "level":4
                               }
                            ],
@@ -7459,6 +7949,7 @@
                            "level":3
                         }
                      ],
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7467,9 +7958,11 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Violence",
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             },
             {
@@ -7483,6 +7976,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Capitalism+and+Cities",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7491,6 +7985,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Children+in+Cities",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7499,6 +7994,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Crime+and+Violence",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7507,6 +8003,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Demographics",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7515,6 +8012,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Economic+Development",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7523,6 +8021,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Environmental+Issues",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7531,6 +8030,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Globalization+and+Modernization",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7539,6 +8039,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Health+and+Cities",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7547,6 +8048,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Housing+and+Homelessness",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7555,6 +8057,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Migration+and+Assimilation",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7563,6 +8066,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Politics,+Government,+and+Governance",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7571,6 +8075,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Poverty,+Inequality,+and+Discrimination",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7579,6 +8084,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Research+Issues",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7587,6 +8093,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Social+Organization",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7595,6 +8102,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Sustainable+Cities",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7603,6 +8111,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Town+and+Country",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7611,6 +8120,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Urbanization",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7619,16 +8129,19 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"WellBeing+and+Cities",
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             }
          ],
+         "color":"#198c19",
          "level":0
       },
       {
-         "text":"Special Collections",
+         "text":"SPECIAL COLLECTIONS",
          "showIcon":false,
          "selectable":false,
          "nodes":[
@@ -7643,6 +8156,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Economics+as+an+Example",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7651,6 +8165,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"History+and+Evolution+of+Social+Science",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7659,6 +8174,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Scientific+Knowledge+and+Method",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7667,6 +8183,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Ways+of+Doing+Social+Science",
+                     "color":"#1919ff",
                      "level":2
                   },
                   {
@@ -7675,9 +8192,11 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Women+and+Social+Science",
+                     "color":"#1919ff",
                      "level":2
                   }
                ],
+               "color":"#ad423f",
                "level":1
             },
             {
@@ -7691,6 +8210,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Agricultural+Policy",
+                     "color":"#ad423f",
                      "level":1
                   },
                   {
@@ -7699,6 +8219,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Economic+Theory",
+                     "color":"#ad423f",
                      "level":1
                   },
                   {
@@ -7707,6 +8228,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Economics+as+a+Social+Science",
+                     "color":"#ad423f",
                      "level":1
                   },
                   {
@@ -7715,6 +8237,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Educational+Materials",
+                     "color":"#ad423f",
                      "level":1
                   },
                   {
@@ -7723,6 +8246,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Environmental+Policy+and+Sustainable+Development",
+                     "color":"#ad423f",
                      "level":1
                   },
                   {
@@ -7731,6 +8255,7 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Feminist+Economics",
+                     "color":"#ad423f",
                      "level":1
                   },
                   {
@@ -7739,13 +8264,16 @@
                      "selectable":true,
                      "nodes":[],
                      "keyword":"Globalization+and+Trade",
+                     "color":"#ad423f",
                      "level":1
                   }
                ],
-               "level":0
+               "color":"#ad423f",
+               "level":1
             }
 
          ],
+         "color":"#198c19",
          "level":0
 
       }
