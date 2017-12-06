@@ -17,7 +17,7 @@ Gdae::Application.routes.draw do
   get '/browse', to: 'doc#browse', as: 'browse'
   get '/get_data', to: 'doc#get_data', as: 'get_data'
   get '/results', to: 'doc#results', as: 'results'
-  #get '/docs/append_kws', to: 'doc#append_kws', as: 'append_kws'
+  get '/search', to: 'doc#search', as: 'search'
   post '/doc/create', to: 'doc#create'
   post '/doc/update', to: 'doc#update'
 

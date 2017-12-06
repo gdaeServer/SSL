@@ -8270,6 +8270,77 @@
                ],
                "color":"#ad423f",
                "level":1
+            },
+            {
+               "text":"Volume 1 - A Survey of Ecological Economics",
+               "showIcon":false,
+               "selectable":false,
+               "nodes":[
+                  {
+                     "text":"I: Historical Perspectives",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"I: Historical Perspectives",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"II: Definition, Scope and InterDiscplinary Issues",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"II: Definition, Scope and InterDiscplinary Issues",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"III: Theoretical Frameworks and Techniques",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"III: Theoretical Frameworks and Techniques",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"IV: Energy and Resource Flow Analysis",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"IV: Energy and Resource Flow Analysis",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"V: Accounting and Evaluation",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"V: Accounting and Evaluation",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"VI: International Economic Relations, Development and The Environment",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"VI: International Economic Relations, Development and The Environment",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"VII: Ethical and Institutional Issues in Ecological Economics",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"VII: Ethical and Institutional Issues in Ecological Economics",
+                     "color":"#1919ff",
+                     "level":2
+                  }
+               ],
+               "color":"#ad423f"
             }
 
          ],

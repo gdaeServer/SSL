@@ -100,6 +100,9 @@ class DocController < ApplicationController
 		end
 		
 	end
+	def search
+		
+	end
 	def results
 	        parent = params[:kw]                     
 	        reg = /#{Regexp.quote(parent)}/

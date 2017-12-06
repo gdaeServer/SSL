@@ -16,9 +16,9 @@
 <!--         <li><%= link_to("Search", ssl_search_path) %></li>
  -->        
          <li><%= link_to("Disciplines", browse_path) %></li>
-        <li><%= link_to("Search", docs_path) %></li>
-        <li><%= link_to("Authors", docs_path + "?authors=A&page=1") %></li>
-        <% if current_user.try(:admin?) %>
+        <li><%= link_to("Search", search_path) %></li>
+<!--         <li><%= link_to("Authors", docs_path + "?authors=A&page=1") %></li>
+ -->        <% if current_user.try(:admin?) %>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Admin <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
