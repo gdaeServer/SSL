@@ -19,19 +19,16 @@ Getting started
 
 * Move into the root of the repository (e.g. `SSL/`)
 
-* Ensure you have Ruby 2.2 and the bundler gem installed. [The instructions here](http://cbednarski.com/articles/installing-ruby/)
-  were very helpful, but there are multiple ways to do this.
+* Ensure you have Ruby 2.2.4 and the bundler gem installed. [The instructions here](http://cbednarski.com/articles/installing-ruby) were very helpful, but there are multiple ways to do this.
 
 * Run `bundle install`
 
-* Run `bin/rails server` to run the application locally
+* Run `rvmsudo rails server -p 80` to run the application 
 
 * If you're new to Rails, [this getting started guide](http://guides.rubyonrails.org/getting_started.html) may be useful.
 
 Deployment
 ------
 
-* We have had success deploying the app to Heroku.
 
 jwei05
-# wildfire

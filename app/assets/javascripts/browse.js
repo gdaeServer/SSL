@@ -1,6 +1,6 @@
 
 $(document).ready(function(){
-    $.getJSON("discipline_hierarchy.json", function(json) {
+    $.getJSON("discipline_hierarchy2.json", function(json) {
         $('#tree').treeview({
                 data: json['all'],
                 expandIcon: "glyphicon-none",

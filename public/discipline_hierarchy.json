@@ -8341,8 +8341,482 @@
                   }
                ],
                "color":"#ad423f"
-            }
+            },
+            {
+               "text":"Volume 2 - The Consumer Society",
+               "showIcon":false,
+               "selectable":false,
+               "nodes":[
+                  {
+                     "text":"I: Scope and Definition",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"I: Scope and Definition",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"II: Consumption in the Affluent Society",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"II: Consumption in the Affluent Society",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"III: Family, Gender, and Socialization",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"III: Family, Gender, and Socialization",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"IV: The History Of Consumer Society",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"IV: The History Of Consumer Society",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"V: Foundations of Economic Theories of Consumption",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"V: Foundations of Economic Theories of Consumption",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"VI: Critiques And Alternatives in Economic Theory",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"VI: Critiques And Alternatives in Economic Theory",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"VII: Perpetuating Consumer Culture: Media, Advertising, And Wants Creation",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"VII: Perpetuating Consumer Culture: Media, Advertising, And Wants Creation",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"VIII: Consumption And The Environment",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"VIII: Consumption And The Environment",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"IX: Globalization And Consumer Culture",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"IX: Globalization And Consumer Culture",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"X: Visions Of An Alternative",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"X: Visions Of An Alternative",
+                     "color":"#1919ff",
+                     "level":2
+                  }
+               ],
+               "color":"#ad423f"
 
+            },
+            {
+               "text":"Volume 3 - Human Well-Being and Economic Goals",
+               "showIcon":false,
+               "selectable":false,
+               "nodes":[
+                  {
+                     "text": "I: Interdisciplinary Perspectives On Well-Being",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword": "I: Interdisciplinary Perspectives On Well-Being",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"II: Utility And Welfare I: The History of Economic Thought",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"II: Utility And Welfare I: The History of Economic Thought",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"III: Utility And Welfare II: Modern Economic Alternatives",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"III: Utility And Welfare II: Modern Economic Alternatives",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"IV: Applied Welfare Economics: Externalities, Valuation, And Cost-Benefit Analysis",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"IV: Applied Welfare Economics: Externalities, Valuation, And Cost-Benefit Analysis",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"V: Economics And The Good, I: Individuals",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"V: Economics And The Good, I: Individuals",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"VI: Economics And The Good, II: Community",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"VI: Economics And The Good, II: Community",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"VII: Economics And The Good, III: Society",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"VII: Economics And The Good, III: Society",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"VIII: National Development - From Basic Needs to the Welfare State",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"VIII: National Development - From Basic Needs to the Welfare State",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"IX: Critiques of National Income Accounting and GNP",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"IX: Critiques of National Income Accounting and GNP",
+                     "color":"#1919ff",
+                     "level":2
+                  }
+               ],
+               "color":"#ad423f"
+            },
+            {
+               "text":"Volume 4 - The Changing Nature of Work",
+               "showIcon":false,
+               "selectable":false,
+               "nodes":[
+                  {
+                     "text":"I: The History of Work",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"I: The History of Work",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"II: New Directions in Labor Economics",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"II: New Directions in Labor Economics",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"III: Globalization and Labor",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"III: Globalization and Labor",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"IV: New Technologies and Work Organization",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"IV: New Technologies and Work Organization",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"V: Restructuring Employment: Flexibility versus Security",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"V: Restructuring Employment: Flexibility versus Security",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"VI: Emerging Patterns of Industrial Relations",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"VI: Emerging Patterns of Industrial Relations",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"VII: Difference and Diversity in the Workplace",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"VII: Difference and Diversity in the Workplace",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"VIII: The Household Economy And Caring Labor",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"VIII: The Household Economy And Caring Labor",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"IX: Human Values in Work",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"IX: Human Values in Work",
+                     "color":"#1919ff",
+                     "level":2
+                  }
+               ],
+               "color":"#ad423f"
+            },
+            {
+               "text":"Volume 5 - The Political Economy of Inequality",
+               "showIcon":false,
+               "selectable":false,
+               "nodes":[
+                  {
+                     "text":"I: Unequal Earnings: Theory versus Reality",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"I: Unequal Earnings: Theory versus Reality",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"II: The Distribution of Wealth and Power",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"II: The Distribution of Wealth and Power",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"III: New Paths to the Top: CEO and Celebrity Compensation",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"III: New Paths to the Top: CEO and Celebrity Compensation",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"IV: Corporate Power: Why Does It Matter?",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"IV: Corporate Power: Why Does It Matter?",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"V: Poverty, Inequality, and Power",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"V: Poverty, Inequality, and Power",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"VI: Intrahousehold Dynamics and Changing Household Composition",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"VI: Intrahousehold Dynamics and Changing Household Composition",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"VII: Technology, Skills, and Education",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"VII: Technology, Skills, and Education",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"VIII: Categorical Inequality",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"VIII: Categorical Inequality",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"IX: World Income Inequality and The Poverty of Nations",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"IX: World Income Inequality and The Poverty of Nations",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"X: Responses to Inequality: The Welfare State",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"X: Responses to Inequality: The Welfare State",
+                     "color":"#1919ff",
+                     "level":2
+                  }
+               ],
+               "color":"#ad423f"
+            },
+            {
+               "text":"Volume 6 - A Survey of Sustainable Development",
+               "showIcon":false,
+               "selectable":false,
+               "nodes":[
+                  {
+                     "text":"I: Economics of Sustainability - The Environmental Dimension",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"I: Economics of Sustainability - The Environmental Dimension",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"II: Economics of Sustainability - The Social Dimension",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"II: Economics of Sustainability - The Social Dimension",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"III: Global Perspectives: The North/South Imbalance",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"III: Global Perspectives: The North/South Imbalance",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"IV: Population and Urbanization",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"IV: Population and Urbanization",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"V: Agriculture and Renewable Resources",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"V: Agriculture and Renewable Resources",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"VI: Materials, Energy and Climate Change",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"VI: Materials, Energy and Climate Change",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"VII: Globalization and Sustainability",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"VII: Globalization and Sustainability",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"VIII: Taming the Corporation",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"VIII: Taming the Corporation",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"IX: Local and National Strategies",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"IX: Local and National Strategies",
+                     "color":"#1919ff",
+                     "level":2
+                  },
+                  {
+                     "text":"X: Reforming Global Institutions",
+                     "showIcon":false,
+                     "selectable":true,
+                     "nodes":[],
+                     "keyword":"X: Reforming Global Institutions",
+                     "color":"#1919ff",
+                     "level":2
+                  }
+               ],
+               "color":"#ad423f"
+            }
+            
+          
          ],
          "color":"#198c19",
          "level":0
