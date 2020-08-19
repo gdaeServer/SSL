@@ -68,7 +68,7 @@ GEM
     minitest (4.7.5)
     mocha (1.0.0)
       metaclass (~> 0.0.1)
-    moped (1.5.1)
+    moped (1.5.3)
     multi_json (1.7.9)
     multipart-post (1.2.0)
     nokogiri (1.5.9)
